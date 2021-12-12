@@ -396,6 +396,10 @@ footer {
 }
 
 .card_footer img{
+}
+
+.logo_footer {
+  width: 20vw;
   margin-left: 4vw;
 }
 
@@ -406,8 +410,8 @@ footer {
   align-content: center;
   justify-content: center;
   padding: 0;
+  margin: auto;
   margin-top: 5vh;
-  margin-left: 3.5vw;
 }
 
 .icon_facebook{
@@ -1033,6 +1037,10 @@ footer {
   margin-left: 0vw;
 }
 
+.logo_footer {
+  width: 70vw;
+  margin-left: 0vw;
+}
 .socialmedia{
   display: flex;
   justify-self: center;
