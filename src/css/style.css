@@ -68,12 +68,12 @@ nav a{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 32px 40px 40px;
+  padding: 2vw 2vw 3vh;
   position: absolute;
-  width: 30vw;
-  height: 20vh;
+  width: 32vw;
+  height: 26vh;
   right: 5vw;
-  top: 95vh;
+  top: 50vh;
 }
 .quemsomos img {
   position: absolute;
@@ -85,7 +85,7 @@ nav a{
   font-family: "Muli-Regular";
   font-style: normal;
   font-weight: 0;
-  font-size: 18px;
+  font-size: 1.5vw;
   line-height: 20px;
   text-align: center;
   color: white;
@@ -97,25 +97,15 @@ nav a{
   align-items: center;
   justify-content: center;
 
-  position: static;
-  width: 10vw;
-  height: 5vh;
-  left: 0px;
-  top: 124px;
-
   background: #eceff5;
   border-radius: 80px;
   border-width: 0;
-
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-  margin: 20px 0px;
 
   font-weight: 600;
   font-size: 1vw;
   line-height: 24px;
   color: #89234D;
+  margin-top: 3vh;
 }
 
 .quemsomos button img {
@@ -127,7 +117,7 @@ nav a{
 }
 
 #ajudar {
-  background-color: #e1b439;
+  background-color: #EDC74D;
   height: 100vh;
   transform: skewY(1deg);
   margin-top: -2vh;
@@ -526,7 +516,9 @@ min-height: 140vh;  width: 100vw;
 .oficinas{
   display: flex;
 flex-direction: column;
-margin-bottom: 10vh;
+padding-bottom: 10vh;
+background-color:#EDC74D;
+
 }
 
 .oficinas h2 {
@@ -567,13 +559,15 @@ flex-wrap: wrap;
 .profissional{
   display: flex;
 flex-direction: column;
-margin-bottom: 10vh;
+margin-bottom: 0vh;
+background-color: #F4DA87;
 }
 
 .profissional h2 {
   margin: auto;
   font-family: "Poppins-Regular";
   margin-top: 0vh;
+  padding-top: 10vh;
 }
 
 .profissional h3{
@@ -603,4 +597,646 @@ flex-wrap: wrap;
 .card_profissional p {
   font-family: "Muli-Regular";
   width: 25vw;
+}
+
+@media (max-width: 800px) {
+ 
+  
+* {
+  margin: 0px;
+  text-decoration: none;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 20vh;
+  background-image: linear-gradient(black,rgba(0, 0, 0, 0));
+  width: 100vw;
+}
+
+.logo_home{
+margin: auto;
+  width: 80vw;
+}
+nav{
+  display: none;
+  margin-left: auto;
+  margin-right: 10vw;
+  align-items: center ;
+  justify-content: space-between;
+  font-family: "Poppins-Regular";
+  font-weight: 700;
+  font-size: 0.8em;
+  width: 50vw;
+}
+
+nav a{
+  color: white;
+}
+
+#quemsomos {
+  height: 100vh;
+  background-image: url("../img/foto_menina.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: -50vw;
+  font-family: "Muli-Regular";
+  display: flex;
+}
+
+.quemsomos {
+  background-color: #215690;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0vw 6vw 12vw 6vw;
+  position:static;
+margin: auto;
+width: 80vw;
+margin-top: 60vh;
+}
+.quemsomos img {
+  position: relative;
+  height: 12vh;
+  top: -8.0vh;
+}
+
+.quemsomos p {
+  font-family: "Muli-Regular";
+  font-style: normal;
+  font-weight: 0;
+  font-size: 5vw;
+  line-height: 2.5vh;
+  text-align: center;
+  color: white;
+  margin-top: -6vh;
+}
+
+.quemsomos button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+width: 50vw;
+  
+  background: #eceff5;
+  border-radius: 80px;
+  border-width: 0;
+
+  font-weight: 600;
+  font-size: 5vw;
+  line-height: 5vh;
+  color: #89234D;
+  margin-top: 3vh;
+}
+
+.quemsomos button img {
+  position: relative;
+  width:auto;
+  height: 2.5vh;
+  top: 0;
+  margin-left: 1vw;
+}
+
+#ajudar {
+  background-color: #EDC74D;
+  height: auto;
+  transform: skewY(1deg);
+  margin-top: -2vh;
+}
+
+.logo_ajudar {
+  position: relative;
+  height: 12vh;
+  transform: skewY(-1deg);
+  margin: auto;
+}
+#doar_cards {
+  position: relative;
+  margin-top: 15vh;
+  transform: skewY(-1deg);
+  display: table;
+}
+.card_ajudar {
+  float:none;
+  width: 80vw;
+  margin-left: 10vw;
+  margin-top: 3vh;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.card_ajudar h4 {
+  font-family: "Poppins-Regular";
+  font-weight: 900;
+  font-size: 1.2em;
+  margin: auto;
+  margin-top: 00vh;
+}
+
+.card_ajudar p {
+  font-family: "Muli-Regular";
+  margin-top: 0vh;
+  margin: auto;
+  text-align: justify;
+}
+button{
+  cursor: pointer;
+}
+
+.card_ajudar button {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 2vh;
+
+  position: static;
+  width: auto;
+  height: 5vh;
+
+  background: #eceff5;
+  border-radius: 80px;
+  border-width: 0;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+
+  font-weight: 600;
+  font-size: 5vw;
+  line-height: 5vh;
+  color: #3e5f9e;
+  padding: 6vw;
+  margin-bottom: 5vh;
+}
+
+.card_ajudar:last-of-type button {
+  width: auto;
+  font-size: 4.5vw;
+  margin-bottom: 10vh;
+}
+
+.card_ajudar button img {
+  margin-left: 2vw;
+}
+
+#atividades {
+  display: flex;
+  background: #d3466f;
+  height: auto;
+  width: 100vw;
+  margin-top: -2vh;
+  color: #eceff5;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-bottom: 10vh;
+}
+
+.logo_atividades {
+  height: 12vh;
+  margin:auto;
+  margin-top: 10vh;
+  transform: skewY(-1deg);
+}
+
+.card_atividades {
+  text-align: justify;
+  width: 80vw;
+  margin-left: 0vw;
+  height: auto;
+  margin: auto;
+  margin-top: 10vh;
+}
+
+.card_atividades h4 {
+  font-family: "Poppins-Regular";
+  font-weight: 800;
+  font-size: 1em;
+  margin: auto;
+}
+
+.card_atividades p {
+  font-family: "Muli-Regular";
+  margin-top: 1vh;
+  margin: auto;
+}
+
+.card_atividades button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  position: static;
+  width: auto;
+  height: 5vh;
+
+  background: #eceff5;
+  border-radius: 80px;
+  border-width: 0;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 20px 0px;
+
+  font-weight: 600;
+  font-size: 4.5vw;
+  line-height: 24px;
+  color: #3e5f9e;
+  margin: auto;
+  margin-top: 5vh;
+  padding: 3vh;
+}
+
+.card_atividades button img {
+  margin-left: 2vw;
+}
+
+.container_atividades {
+  position: relative;
+  display: flex;
+  left: 0;
+  margin-top: 0vh;
+  width: 100vw;
+  margin: auto;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.atividades {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100vw;
+  margin: auto;
+  margin-left: 0vw;
+  margin-top: 10vh;
+  height: auto;
+}
+
+.atividades h4 {
+  font-family: "Poppins-Regular";
+  font-weight: 800;
+  font-size: 1.5em;
+}
+
+.atividades p {
+  font-family: "Muli-Regular";
+  margin-top: 1vh;
+  font-size: 1.2em;
+}
+
+#galeria{
+  height: auto;
+  padding-bottom: 5vh;
+  background-color:#E89999 ;
+}
+
+.title{
+  position: absolute;
+  display: flex;
+  background-color: #60A8B5
+  ;
+  justify-content: center;
+  height: 30vh;
+  width: 100vw;
+}
+
+.logo_galeria{
+  position: absolute;
+  bottom: 9vh;
+  margin: 0;
+  margin: auto;
+  height: 12vh;
+}
+.title a{
+  position: absolute;
+  bottom: 2vh;
+  right: unset;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;  font-weight: 600;
+    font-size: 1.4em;
+    line-height: 24px;
+    font-family: "Poppins-Regular";
+  color: #eceff5;
+  text-decoration: none;
+  }
+
+.title img{
+  margin-left: 0em;
+}
+
+.fotos_galeria{
+width: 100vw;
+object-fit: contain;
+margin-top: 30vh;
+}
+
+#parceiros{
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  background-color: white;
+padding-top: 10vh;
+padding-bottom: 10vh;
+width: 100vw;
+}
+
+.logo_parceiros{
+  width: auto;
+  height: 12vh;
+  margin: auto auto;
+}
+
+.parceiros{
+  display: flex;
+  margin: auto;
+  width: 60vw;
+  margin-top: 10vh;
+  display: flex;
+  align-content: center;
+justify-content: space-between;
+flex-direction: column;
+}
+
+.barra{
+  display: none
+}
+
+.parceiros img{
+  height: 12vh;
+  max-height: 100vh;
+  max-width: 100vw;
+  object-fit: contain;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: auto;
+  background-color: #3E3E3E;
+  padding-bottom: 10vh;
+}
+
+.chamado_doacao {
+  display: flex;
+  height: 10vh;
+  background-color: #212121;
+  font-family: "Poppins-Regular";
+  width: 100vw;
+  font-size: 1em;
+}
+.chamado_doacao a{
+  text-decoration: none;
+  color:#F0C53E;
+  align-self: center;
+  margin: auto;
+  font-weight: 600;
+  font-size: .9em;
+  line-height: 24px;
+}
+
+.container_footer{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+.card_footer{
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: auto;
+  justify-content: center;
+  font-family: "Poppins-Regular";
+  text-align: center;
+  margin-top: 5vh;
+}
+
+.card_footer img{
+  margin-left: 0vw;
+}
+
+.socialmedia{
+  display: flex;
+  justify-self: center;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  padding: 0;
+  margin: auto;
+  margin-top: 5vh;
+
+}
+
+.socialmedia a{
+  align-self: flex-start;
+}
+
+.icon_facebook{
+  height: .8em;
+  width: .8em;
+  background-color: #3d619b;
+  margin: 0;
+  padding: .2em;
+}
+.icon_instagram{
+  height: .8em;
+  width: .8em;
+  background-color: #61a8b3;
+  margin: 0;
+  padding: .2em;
+}
+.icon_youtube{
+  height: .8em;
+  width: .8em;
+  background-color: #c72d2e;
+  margin: 0;
+  padding: .2em;
+}
+  .card_footer a{
+  text-decoration: none;
+  font-family: "Poppins-Regular";
+  font-size: 1.4em;
+  color: #eceff5;
+  margin-bottom: -.4em
+}
+
+#sobrenos{
+min-height: 140vh;  width: 100vw;
+  background-image: url('../img/foto_sede.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+}
+
+.historia{
+  width: 30vw;
+  margin-left: auto;
+  margin-right: 10vw;
+  margin-top: 30vh;
+  background-color: #d3466f;
+  padding: 5vh;
+  height: 35vw;
+}
+
+.historia h4{
+  font-family: "Poppins-Regular";
+  font-size: 1.5vw;
+  color: #eceff5;
+}
+
+.historia p{
+  font-family: "Muli-Regular";
+  font-size: 1vw;
+  color: #eceff5;
+}
+
+.close {
+  right: 32px;
+  top: 32px;
+  width: 32px;
+  height: 32px;
+  opacity: 0.3;
+}
+.close:hover {
+  opacity: 1;
+}
+.close:before, .close:after {
+  left: 15px;
+  content: ' ';
+  height: 33px;
+  width: 2px;
+  background-color: #333;
+}
+.close:before {
+  transform: rotate(45deg);
+}
+.close:after {
+  transform: rotate(-45deg);
+}
+
+.nav_about {
+  display: flex;
+  margin: auto;
+  /* margin-right: 10vw; */
+  /* align-items: center ; */
+  /* justify-content: space-between; */
+  /* font-family: "Poppins-Regular"; */
+  /* font-weight: 700; */
+  /* font-size: 0.8em; */
+  /* width: 50vw; */
+}
+
+.atividades_logo{
+  position: absolute;
+  width: 34vw;
+  left: 50vw;
+  margin-left: -17vw;
+  margin-top: 20vh;
+}
+
+.oficinas{
+  display: flex;
+flex-direction: column;
+padding-bottom: 10vh;
+background-color:#EDC74D;
+
+}
+
+.oficinas h2 {
+  margin: auto;
+  font-family: "Poppins-Regular";
+  margin-top: 57vh;
+}
+
+.oficinas h3{
+  margin: auto;
+  font-family: "Muli-Regular";
+  font-weight: 570;
+}
+
+.card_oficinas{
+  display: flex;
+justify-content: space-evenly;
+margin-top: 15vh;
+flex-wrap: wrap;
+}
+
+.card_oficinas div{ 
+  margin-bottom: 10vh;
+}
+.card_oficinas img {
+ width: 25vw;
+}
+.card_oficinas h4 {
+  font-family: "Poppins-Regular";
+
+}
+
+.card_oficinas p {
+  font-family: "Muli-Regular";
+  width: 25vw;
+}
+
+.profissional{
+  display: flex;
+flex-direction: column;
+margin-bottom: 0vh;
+background-color: #F4DA87;
+}
+
+.profissional h2 {
+  margin: auto;
+  font-family: "Poppins-Regular";
+  margin-top: 0vh;
+  padding-top: 10vh;
+}
+
+.profissional h3{
+  margin: auto;
+  font-family: "Muli-Regular";
+  font-weight: 570;
+}
+
+.card_profissional{
+  display: flex;
+justify-content: space-evenly;
+margin-top: 15vh;
+flex-wrap: wrap;
+}
+
+.card_profissional div{ 
+  margin-bottom: 10vh;
+}
+.card_profissional img {
+ width: 25vw;
+}
+.card_profissional h4 {
+  font-family: "Poppins-Regular";
+
+}
+
+.card_profissional p {
+  font-family: "Muli-Regular";
+  width: 25vw;
+}
+
+
 }
