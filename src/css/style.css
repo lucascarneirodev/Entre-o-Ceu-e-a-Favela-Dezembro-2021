@@ -1089,32 +1089,35 @@ footer {
 
 #sobrenos{
 min-height: 140vh;  width: 100vw;
+height: auto;
   background-image: url('../img/foto_sede.png');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: ;
   display: flex;
 }
 
 .historia{
-  width: 30vw;
+  width: 80vw;
   margin-left: auto;
   margin-right: 10vw;
   margin-top: 30vh;
-  background-color: #d3466f;
-  padding: 5vh;
-  height: 35vw;
+  background-color: #d3466ede;
+  padding: 3vh;
+  height: 85vh;
 }
 
 .historia h4{
   font-family: "Poppins-Regular";
-  font-size: 1.5vw;
+  font-size: 5vw;
   color: #eceff5;
 }
 
 .historia p{
   font-family: "Muli-Regular";
-  font-size: 1vw;
+  font-size: 3.5vw;
   color: #eceff5;
+  line-height: 2.2vh;
 }
 
 .close {
@@ -1155,9 +1158,9 @@ min-height: 140vh;  width: 100vw;
 
 .atividades_logo{
   position: absolute;
-  width: 34vw;
+  width: 60vw;
   left: 50vw;
-  margin-left: -17vw;
+  margin-left: -30vw;
   margin-top: 20vh;
 }
 
@@ -1172,36 +1175,45 @@ background-color:#EDC74D;
 .oficinas h2 {
   margin: auto;
   font-family: "Poppins-Regular";
-  margin-top: 57vh;
+  margin-top: 40vh;
 }
 
 .oficinas h3{
   margin: auto;
   font-family: "Muli-Regular";
   font-weight: 570;
+  text-align: center;
+  margin-left: 5vw;
+  margin-right: 5vw;
 }
 
 .card_oficinas{
   display: flex;
 justify-content: space-evenly;
-margin-top: 15vh;
+flex-direction: column;
+margin-top: 5vh;
 flex-wrap: wrap;
 }
 
 .card_oficinas div{ 
-  margin-bottom: 10vh;
+  margin-bottom: 0vh;
+  width: 80vw;
+  margin: auto
 }
 .card_oficinas img {
- width: 25vw;
+ width: 80vw;
 }
 .card_oficinas h4 {
   font-family: "Poppins-Regular";
-
+  text-align: center;
 }
 
 .card_oficinas p {
   font-family: "Muli-Regular";
-  width: 25vw;
+  width: 80vw;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 10vh;
 }
 
 .profissional{
@@ -1222,6 +1234,7 @@ background-color: #F4DA87;
   margin: auto;
   font-family: "Muli-Regular";
   font-weight: 570;
+  text-align: center;
 }
 
 .card_profissional{
@@ -1229,13 +1242,17 @@ background-color: #F4DA87;
 justify-content: space-evenly;
 margin-top: 15vh;
 flex-wrap: wrap;
+text-align: center;
+flex-direction: column;
 }
 
 .card_profissional div{ 
+  margin: auto;
   margin-bottom: 10vh;
+  width: 80vw;
 }
 .card_profissional img {
- width: 25vw;
+ width: 80vw;
 }
 .card_profissional h4 {
   font-family: "Poppins-Regular";
@@ -1244,7 +1261,7 @@ flex-wrap: wrap;
 
 .card_profissional p {
   font-family: "Muli-Regular";
-  width: 25vw;
+  width: 80vw;
 }
 
 
