@@ -78,7 +78,7 @@ nav a{
 .quemsomos img {
   position: absolute;
   height: 12vh;
-  top: -8.5vh;
+  top: -7.5vh;
 }
 
 .quemsomos p {
@@ -336,7 +336,7 @@ margin-top: 30vh;
 }
 
 .logo_parceiros{
-  width: 15vw;
+  height: 7vh;
   margin: auto auto 10vh;
 }
 
@@ -358,7 +358,7 @@ justify-content: space-between;
 
 footer {
   height: 75vh;
-  background-color: #3E3E3E;
+  background-color: #dddddd;
 }
 
 .chamado_doacao {
@@ -370,7 +370,7 @@ footer {
 }
 .chamado_doacao a{
   text-decoration: none;
-  color:#F0C53E;
+  color:#3d392b;
   align-self: center;
   margin: auto;
   font-weight: 600;
@@ -393,7 +393,7 @@ footer {
   justify-content: center;
   font-family: "Poppins-Regular";
   margin-top: 5vh;
-  color: #eceff5;
+  color: #545454;
 }
 
 .card_footer img{
@@ -440,7 +440,7 @@ footer {
   text-decoration: none;
   font-family: "Poppins-Regular";
   font-size: 1.4em;
-  color: #eceff5;
+  color: #545454;
   margin-bottom: -.4em
 }
 
@@ -667,8 +667,8 @@ margin-top: 60vh;
 }
 .quemsomos img {
   position: relative;
-  height: 12vh;
-  top: -8.0vh;
+  height: 7vh;
+  top: -7.0vh;
 }
 
 .quemsomos p {
@@ -717,7 +717,7 @@ width: 50vw;
 
 .logo_ajudar {
   position: relative;
-  height: 12vh;
+  height: 7vh;
   transform: skewY(-1deg);
   margin: auto;
 }
@@ -807,7 +807,7 @@ button{
 }
 
 .logo_atividades {
-  height: 12vh;
+  height: 7vh;
   margin:auto;
   margin-top: 10vh;
   transform: skewY(-1deg);
@@ -963,7 +963,7 @@ width: 100vw;
 
 .logo_parceiros{
   width: auto;
-  height: 12vh;
+  height: 5vh;
   margin: auto auto;
 }
 
@@ -994,7 +994,6 @@ footer {
   flex-direction: row;
   flex-wrap: wrap;
   height: auto;
-  background-color: #3E3E3E;
   padding-bottom: 10vh;
 }
 
@@ -1083,7 +1082,6 @@ footer {
   text-decoration: none;
   font-family: "Poppins-Regular";
   font-size: 1.4em;
-  color: #eceff5;
   margin-bottom: -.4em
 }
 
