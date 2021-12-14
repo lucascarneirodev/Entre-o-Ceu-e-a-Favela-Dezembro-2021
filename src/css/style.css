@@ -78,7 +78,7 @@ nav a{
 .quemsomos img {
   position: absolute;
   height: 12vh;
-  top: -7.5vh;
+  top: -8.5vh;
 }
 
 .quemsomos p {
@@ -370,7 +370,8 @@ footer {
 }
 .chamado_doacao a{
   text-decoration: none;
-  color:#3d392b;
+  color: #F0C53E;
+
   align-self: center;
   margin: auto;
   font-weight: 600;
