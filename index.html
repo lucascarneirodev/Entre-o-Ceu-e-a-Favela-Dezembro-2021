@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="./src/img/icon.png" type="image/x-icon">
     <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" />
+
     <title>Entre o Céu e a Favela</title>
   </head>
   <body>
@@ -135,7 +137,10 @@
         <a href="https://www.instagram.com/entreoceueafavela/">Siga a gente no instagram<img src="./src/img/Arrow 2.png" alt="" />
         </a>
       </div>
-      <img class="fotos_galeria" src="./src/img/foto_galeria.png" alt="Várias fotos de projetos">
+      
+    <div id="instafeed-container">
+
+    </div>
     </section>
     <section id="parceiros">
       <img class="logo_parceiros" src="./src/img/parceiros2.png" alt="Parceiros">
@@ -178,21 +183,13 @@
             </h4>
           </p>
         </div>
-        <div class="card_footer">
-          
+        <div class="card_footer">        
         </div>
       </div>
     </footer>
-    <!-- <div id="instafeed-container"></div> -->
-  	<script src="https://cdn.jsdelivr.net/gh/stevenschobert/instafeed.js@2.0.0rc1/src/instafeed.min.js"></script>
-	<script type="text/javascript">
-	var userFeed = new Instafeed({
-		get: 'user',
-		target: "instafeed-container",
-    	resolution: 'low_resolution',
-		accessToken: 'IGQVJWSV9iSXVLV2c4bkhRZAFgtRkhFamFlY2xBbThaU2NEODNacWFlbVVGaEJRNGJBcDdjcXJUWXZA4ZA3UyUmJQSDVJVDltWjEzWnlwYTU1aHB4T0JuN3k0NVA4cWxOWTNobUhFcWtkaXE3TUNkX2EwWAZDZD'
-	});
-	userFeed.run();
-	</script>
+  <script src="https://cdn.jsdelivr.net/gh/stevenschobert/instafeed.js@2.0.0rc1/src/instafeed.min.js"></script>
+  <script type="text/javascript" src="./src/script/script.js"></script>
+  <script src="./src/script/dist/cube-gallery.min.js"></script>
+
   </body>
   </html>
