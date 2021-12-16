@@ -301,7 +301,7 @@ button{
   margin: auto;
 }
 
-#instafeed-container a img{
+  #instafeed-container a img{
   height: 30vh;
   object-fit: cover;
   width: 30vh;
@@ -312,13 +312,8 @@ button{
   color:red
 }
 
-#instafeed-container a:nth-child(1) img{
-  height: 30vh;
-  width: 30vh;
-  margin-bottom: -30vh;
-}
-
-#instafeed-container a:nth-child(6) img{
+#instafeed-container a:nth-child(25) {
+  display: none;
 }
 
 .title{
@@ -403,13 +398,13 @@ footer {
 .chamado_doacao {
   display: flex;
   height: 10vh;
-  background-color: #212121;
+  background-color: red;
   font-family: "Poppins-Regular";
   font-size: 1em;
 }
 .chamado_doacao a{
   text-decoration: none;
-  color: #F0C53E;
+  color: white;
 
   align-self: center;
   margin: auto;
@@ -948,6 +943,26 @@ button{
   height: auto;
 }
 
+
+#instafeed-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 99vw;
+  padding-top: 30vh;
+  margin: auto;
+}
+
+  #instafeed-container a img{
+  height: 33vw;
+  object-fit: cover;
+  width: 33vw;
+}
+
+#instafeed-container a:nth-child(25) {
+  display: none;
+}
+
 .title{
   position: absolute;
   display: flex;
@@ -1041,14 +1056,14 @@ footer {
 .chamado_doacao {
   display: flex;
   height: 10vh;
-  background-color: #212121;
+  background-color: red;
   font-family: "Poppins-Regular";
   width: 100vw;
   font-size: 1em;
 }
 .chamado_doacao a{
   text-decoration: none;
-  color:#F0C53E;
+  color:white;
   align-self: center;
   margin: auto;
   font-weight: 600;
