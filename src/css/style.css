@@ -58,7 +58,7 @@ nav a{
   height: 140vh;
   background-image: url("../img/foto_menina.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   font-family: "Muli-Regular";
 }
 
@@ -682,7 +682,7 @@ nav a{
   height: 100vh;
   background-image: url("../img/foto_menina.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: -50vw;
   font-family: "Muli-Regular";
   display: flex;
