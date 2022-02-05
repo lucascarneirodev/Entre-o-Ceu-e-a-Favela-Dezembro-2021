@@ -90,6 +90,12 @@ nav a{
   background-repeat: no-repeat;
   background-size: cover;
   font-family: "Muli-Regular";
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+	background-size: cover;
+	background-color: #1c120c;
+	background-attachment:fixed;
 }
 
 .quemsomos {
@@ -360,6 +366,7 @@ button{
 .logo_galeria{
   position: absolute;
   bottom: 4vh;
+  width: 20vw;
 }
 .title a{
   position: absolute;
@@ -396,7 +403,7 @@ margin-top: 30vh;
 }
 
 .logo_parceiros{
-  height: 7vh;
+  height: 10vh;
   margin: auto auto 10vh;
 }
 
@@ -610,7 +617,7 @@ background-color:#EDC74D;
 .oficinas h2 {
   margin: auto;
   font-family: "Poppins-Regular";
-  margin-top: 57vh;
+  margin-top: 25vh;
 }
 
 .oficinas h3{
@@ -684,6 +691,46 @@ flex-wrap: wrap;
   font-family: "Muli-Regular";
   width: 25vw;
 }
+
+.backgrounda {
+  margin-top: -2vh;
+  height: 100vh;
+	background: url("../img/foto_backgrounda.jpg") no-repeat center fixed;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+	background-size: cover;
+	background-color: #1c120c;
+	background-attachment:fixed;
+	position:relative;
+	overflow:hidden;
+ }
+ 
+.backgroundb {
+  height: 100vh;
+	background: url("../img/foto_backgroundb.jpg") no-repeat center fixed;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+	background-size: cover;
+	background-color: #1c120c;
+	background-attachment:fixed;
+	position:relative;
+	overflow:hidden;
+ }
+
+.backgroundc {
+  height: 100vh;
+	background: url("../img/foto_backgroundc.jpg") no-repeat center fixed;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+	background-size: cover;
+	background-color: #1c120c;
+	background-attachment:fixed;
+	position:relative;
+	overflow:hidden;
+ }
 
 @media (max-width: 800px) {
  
@@ -1274,7 +1321,7 @@ background-color:#EDC74D;
 .oficinas h2 {
   margin: auto;
   font-family: "Poppins-Regular";
-  margin-top: 40vh;
+  margin-top: 25vh;
 }
 
 .oficinas h3{

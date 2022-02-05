@@ -13,7 +13,7 @@ const parallax_home = document.getElementById("quemsomos");
 window.addEventListener("scroll", function()
 {
     let offset = window.pageYOffset;
-    parallax_home.style.backgroundPositionY= offset * 0.5 + "px"
+    parallax_home.style.backgroundPositionY= offset * 0.0 + "px"
 })
 
 const parallax_about = document.getElementById("sobrenos");
