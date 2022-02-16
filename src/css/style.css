@@ -21,6 +21,7 @@
 * {
   margin: 0px;
   text-decoration: none;
+  max-width: 100%;
 }
 
 header {
@@ -651,8 +652,15 @@ flex-wrap: wrap;
  height: 25vw;
  object-fit:cover;
 }
+
 .card_oficinas h4 {
   font-family: "Poppins-Regular";
+
+}
+
+.card_oficinas h5 {
+  font-family: "Poppins-Regular";
+  font-weight: 500;
 
 }
 
