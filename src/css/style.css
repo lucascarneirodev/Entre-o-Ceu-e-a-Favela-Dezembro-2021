@@ -448,7 +448,7 @@ footer {
 .chamado_doacao {
   display: flex;
   height: 10vh;
-  background-color: red;
+  background-color: #C52D2D;
   font-family: "Poppins-Regular";
   font-size: 1em;
 }
@@ -688,6 +688,12 @@ background-color: #F4DA87;
   font-family: "Muli-Regular";
   font-weight: 570;
 }
+
+.profissional h5 {
+  font-family: "Poppins-Regular";
+  font-weight: 500;
+}
+
 
 .card_profissional{
   display: flex;
@@ -1175,7 +1181,7 @@ footer {
 .chamado_doacao {
   display: flex;
   height: 10vh;
-  background-color: red;
+  background-color: #C52D2D;
   font-family: "Poppins-Regular";
   width: 100vw;
   font-size: 1em;
