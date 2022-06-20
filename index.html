@@ -16,12 +16,16 @@
   <header>
     <img class="logo_home" src="./src/img/logo.png" alt="Entre o Céu e a Favela" />
     <nav>
-      <a href="/about.html">QUEM SOMOS <img class="pipanav" src="./src/img/pipa.png" alt=""></a>
-      <a href="/#ajudar">COMO AJUDAR <img class="pipanav" src="./src/img/pipa.png" alt=""></a>
-      <a href="/#atividades">ATIVIDADES <img class="pipanav" src="./src/img/pipa.png" alt=""></a>
-      <a href="/#galeria">GALERIA <img class="pipanav" src="./src/img/pipa.png" alt=""></a>
-      <a href="/#parceiros">PARCEIROS <img class="pipanav" src="./src/img/pipa.png" alt=""></a>
-      <img src="./src/img/br.png" alt="Brasil" />
+      <a href="/about.html" lang-key="nav-quemsomos" class="nav-element">QUEM SOMOS <img class="pipanav" src="./src/img/pipa.png"></a>
+      <a href="/#ajudar" lang-key="nav-ajudar" class="nav-element">COMO AJUDAR <img class="pipanav" src="./src/img/pipa.png"></a>
+      <a href="/#atividades" lang-key="nav-atividades" class="nav-element">ATIVIDADES <img class="pipanav" src="./src/img/pipa.png"></a>
+      <a href="/#galeria" lang-key="nav-galeria" class="nav-element">GALERIA <img class="pipanav" src="./src/img/pipa.png"></a>
+      <a href="/#parceiros" lang-key="nav-parceiros" class="nav-element">PARCEIROS <img class="pipanav" src="./src/img/pipa.png"></a>
+      <div class="nav-idiomas">
+        <a class="languages">EN</a>
+        <a class="languages">PT</a>
+        <a class="languages">FR</a>
+      </div>
     </nav>
   </header>
 
@@ -30,13 +34,13 @@
 
       <div class="quemsomos">
         <img src="./src/img/quemsomos2.png" alt="Quem somos" />
-        <p>
+        <p lang-key="p-quemsomos">
           Nossa missão é potencializar o protagonismo de crianças, jovens,
           mulheres e empreendedores locais por meio de ações socioculturais que
           promovam a inclusão e a transformação social.
         </p>
         <a href="/about.html" target="_blank">
-          <button>
+          <button lang-key="btn-saibamais">
             Saiba mais <img src="./src/img/Arrow 0.png" alt="" />
           </button>
         </a>
@@ -47,50 +51,51 @@
     <img class="logo_ajudar" src="./src/img/comoajudar2.png" alt="" />
     <div id="doar_cards">
       <div class="card_ajudar">
-        <h4>Doação mensal</h4>
-        <p>
+        <h4 lang-key="card-h4-mensal">Doação mensal</h4>
+        <p lang-key="card-p-mensal">
           Ser um doador mensal possibilita fazer a diferença de diversas
           formas como o apoio a continuação de oficinas e cursos
           profissionalizantes voltados para a entrada desses jovens no mercado
           de trabalho. Seja um doador mensal e contribua com a transformação
           social!
         </p>
-        <a href="https://www.paypal.com/donate/?hosted_button_id=7MTFHLZM2LNMC" target="_blank"><button>
+        <a href="https://www.paypal.com/donate/?hosted_button_id=7MTFHLZM2LNMC" target="_blank"><button
+            lang-key="btn-doepaypal">
             Doe com PayPal<img src="./src/img/Arrow 1.png" alt="" />
           </button></a>
       </div>
       <div class="card_ajudar">
-        <h4>Apadrinhe uma criança</h4>
-        <p>
+        <h4 lang-key="card-h4-apadrinhe">Apadrinhe uma criança</h4>
+        <p lang-key="card-p-apadrinhe">
           Apadrinhar uma criança é um ato de amor! Acolher um futuro é abrir
           uma infinidade de possibilidades a quem precisa! Apadrinhe uma
           criança e seja parte dessa transformação!
         </p>
         <a href="https://api.whatsapp.com/send?phone=21990325749">
-          <button>
+          <button lang-key="btn-apadrinhe">
             Entre em contato<img src="./src/img/Arrow 1.png" alt="" />
           </button></a>
       </div>
       <div class="card_ajudar">
-        <h4>Doação única</h4>
-        <p>
+        <h4 lang-key="card-h4-unica">Doação única</h4>
+        <p lang-key="card-p-unica">
           Um único gesto pode transformar uma vida! Doe e nos ajude a
           impulsionar o futuro de crianças e jovens.
         </p>
         <a href="https://www.paypal.com/donate/?hosted_button_id=7MTFHLZM2LNMC" target="_blank">
-          <button>
+          <button lang-key="btn-doepaypal">
             Doe com PayPal<img src="./src/img/Arrow 1.png" alt="" />
           </button></a>
       </div>
       <div class="card_ajudar">
-        <h4>Seja voluntário</h4>
-        <p>
+        <h4 lang-key="card-h4-voluntario">Seja voluntário</h4>
+        <p lang-key="card-p-voluntario">
           Quer abraçar o projeto e fazer parte do nosso time? Acesse nossa
           plataforma de voluntariado.
         </p>
         <a href="https://docs.google.com/forms/d/e/1FAIpQLScHEAP4WXTBwJYheh114h6Z1bPRe9y8HIgJpcxIB0QT6YwZBg/viewform"
           target="_blank">
-          <button>
+          <button lang-key="btn-voluntario">
             Preencha nosso formulário <img src="./src/img/Arrow 1.png" alt="" />
           </button>
         </a>
@@ -103,7 +108,7 @@
     <img src="./src/img/atividades2.png" alt="" class="logo_atividades" />
 
     <div class="card_atividades">
-      <p>
+      <p lang-key="card-p-atividades">
         Com nossas atividades, queremos promover a transformação sócio
         cultural na região portuária do Rio de Janeiro. Nós oferemos espaços
         de desenvolvimento para crianças, jovens e mulheres e geramos
@@ -111,15 +116,15 @@
         e efetiva para os moradores da região.
       </p>
       <a href="/atividades.html" target="_blank">
-        <button>
+        <button lang-key="btn-atividades">
           Veja todas as atividades<img src="./src/img/Arrow 1.png" alt="" />
         </button></a>
     </div>
 
     <div class="container_atividades">
       <div class="atividades">
-        <h4>Qualificação profissional</h4>
-        <p>
+        <h4 lang-key="atividades-h4-profissional">Qualificação profissional</h4>
+        <p lang-key="atividades-p-profissional-lista">
           Maquiagem<br>
           Trança<br>
           Informática<br>
@@ -127,8 +132,8 @@
         </p>
       </div>
       <div class="atividades">
-        <h4>Oficinas</h4>
-        <p>
+        <h4 lang-key="atividades-h4-oficinas">Oficinas</h4>
+        <p lang-key="atividades-p-oficinas-lista">
           Escrita Criativa<br>
           Percussão<br>
           Reforço Escolar<br>
@@ -144,8 +149,8 @@
   <section id="galeria">
     <div class="title">
       <img class="logo_galeria" src="./src/img/galeria.png" alt="Galeria">
-      <a href="https://www.instagram.com/entreoceueafavela/">Siga a gente no instagram<img src="./src/img/Arrow 2.png"
-          alt="" />
+      <a lang-key="galeria-a-siga" href="https://www.instagram.com/entreoceueafavela/">Siga a gente no instagram<img
+          src="./src/img/Arrow 2.png" alt="" />
       </a>
     </div>
 
@@ -170,7 +175,8 @@
   </section>
   <footer>
     <div class="chamado_doacao">
-      <a href="https://www.paypal.com/donate/?hosted_button_id=7MTFHLZM2LNMC">Participe dessa história. Faça uma doação.
+      <a lang-key="footer-doacao" href="https://www.paypal.com/donate/?hosted_button_id=7MTFHLZM2LNMC">Participe dessa
+        história. Faça uma doação.</a>
     </div>
 
     <div class="container_footer">
@@ -187,12 +193,12 @@
       </div>
       <div class="card_footer">
         <p>
-          <h4>Endereço</h4>
-          Ladeira do Faria, 88 - Morro da Providência, Rio de Janeiro - RJ <br>CEP: 20221-380<br><br>
-          <h4>Email</h4>
-          contato@entreoceueafavela.com<br><br>
-          <h4>Copyright © 2021 | Instituto Entre o Céu e a Favela<br>
-          </h4>
+        <h4 lang-key="footer-h4-endereco">Endereço</h4>
+        Ladeira do Faria, 88 - Morro da Providência, Rio de Janeiro - RJ <br>CEP: 20221-380<br><br>
+        <h4>Email</h4>
+        contato@entreoceueafavela.com<br><br>
+        <h4>Copyright © 2021 | Instituto Entre o Céu e a Favela<br>
+        </h4>
         </p>
       </div>
       <div class="card_footer">

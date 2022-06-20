@@ -1,86 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="./src/img/icon.png" type="image/x-icon">
-    <link rel="stylesheet" href="./src/css/style.css" />
-    <title>Entre o Céu e a Favela</title>
-  </head>
-  <body>
-    <header>
-        <!-- <img class="logo_home" src="./src/img/logo.png" alt="Entre o Céu e a Favela" /> -->
-        <nav class="nav_about">
-            <a href="/">INÍCIO  <img id="pipanav" src="./src/img/pipa.png" alt=""></a>
-            <!-- <a href="/#ajudar">COMO AJUDAR</a>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="./src/img/icon.png" type="image/x-icon">
+  <link rel="stylesheet" href="./src/css/style.css" />
+  <title>Entre o Céu e a Favela</title>
+</head>
+
+<body>
+  <header>
+    <!-- <img class="logo_home" src="./src/img/logo.png" alt="Entre o Céu e a Favela" /> -->
+    <nav class="nav_about">
+      <a href="/" lang-key="home">INÍCIO <img id="pipanav" src="./src/img/pipa.png" alt=""></a>
+      <div class="nav-idiomas">
+        <a class="languages">EN</a>
+        <a class="languages">PT</a>
+        <a class="languages">FR</a>
+      </div>
+      <!-- <a href="/#ajudar">COMO AJUDAR</a>
             <a href="/#atividades">ATIVIDADES</a>
             <a href="/#galeria">GALERIA</a>
             <a href="/#parceiros">PARCEIROS</a>
             <img src="./src/img/br.png" alt="Brasil" /> -->
-        </nav>
-      </header>
-    <section id="sobrenos">
-      <div class="historia" id="historia">
-        <h4>Nossa história</h4>
-        <br />
+    </nav>
+  </header>
+  <section id="sobrenos">
+    <div class="historia" id="historia">
+      <h4 lang-key="sobrenos-h4">Nossa história</h4>
+      <br />
+      <p lang-key="sobrenos-p">
+        Nossa história começa em 2011 na primeira favela do Brasil, a
+        Providência.<br /><br />
+
+        Em busca de uma solução que viesse a melhorar sua auto estima, a
+        fundadora e CEO do Instituto Entre o Céu e Favela encontrou, ainda
+        jovem no teatro, sua resposta, e viu ali a chance de fazer com que
+        crianças também tivessem acesso a auto estima através da arte.<br /><br />
+
+        Aliando duas grandes paixões, o teatro e a vontade de transformar
+        vidas, Cíntia Sant´anna utilizou a inquietude e um olhar apaixonado
+        por essa história que o morro carrega e iniciou um informativo mensal
+        com notícias, serviços e um segmento para contar as histórias da
+        comunidade.<br /><br />
+
+        Como uma evolução natural desse trabalho, em 2015, o pequeno jornal
+        acompanhou a digitalização e se transformou em uma plataforma digital
+        sempre focada em valorizar, unir e divulgar a cultura, arte e
+        desenvolvimento social.<br /><br />
+
+        No ano seguinte, passamos a ter uma sede em parceria com a casa
+        colaborativa Epicentral, firmando uma rede de apoio dentro da
+        comunidade. Trabalhar em rede é algo que está em nosso DNA e em 2019
+        começamos a integrar a maior rede de apoio a favelas do Brasil: a rede
+        Gerando Falcões.
+      </p>
+    </div>
+  </section>
+  <footer>
+    <div class="chamado_doacao">
+      <a lang-key="footer-doacao" href="https://www.paypal.com/donate/?hosted_button_id=7MTFHLZM2LNMC">Participe dessa
+        história. Faça uma doação.</a>
+    </div>
+
+    <div class="container_footer">
+      <div class="card_footer">
+        <img class="logo_footer" src="./src/img/logo2.png" alt="Entre o céu e a Favela">
+        <div class="socialmedia">
+          <a href="https://www.facebook.com/entreoceueafavela/"><img class="icon_facebook" src="./src/img/facebook.svg"
+              alt=""> Facebook</a>
+          <a href="https://www.instagram.com/entreoceueafavela/"><img class="icon_instagram"
+              src="./src/img/instagram.svg" alt=""> Instagram</a>
+          <a href="https://www.youtube.com/entreoceueafavela/"><img class="icon_youtube" src="./src/img/youtube.svg"
+              alt=""> Youtube</a>
+        </div>
+      </div>
+      <div class="card_footer">
         <p>
-          Nossa história começa em 2011 na primeira favela do Brasil, a
-          Providência.<br /><br />
-
-          Em busca de uma solução que viesse a melhorar sua auto estima, a
-          fundadora e CEO do Instituto Entre o Céu e Favela encontrou, ainda
-          jovem no teatro, sua resposta, e viu ali a chance de fazer com que
-          crianças também tivessem acesso a auto estima através da arte.<br /><br />
-
-          Aliando duas grandes paixões, o teatro e a vontade de transformar
-          vidas, Cíntia Sant´anna utilizou a inquietude e um olhar apaixonado
-          por essa história que o morro carrega e iniciou um informativo mensal
-          com notícias, serviços e um segmento para contar as histórias da
-          comunidade.<br /><br />
-
-          Como uma evolução natural desse trabalho, em 2015, o pequeno jornal
-          acompanhou a digitalização e se transformou em uma plataforma digital
-          sempre focada em valorizar, unir e divulgar a cultura, arte e
-          desenvolvimento social.<br /><br />
-
-          No ano seguinte, passamos a ter uma sede em parceria com a casa
-          colaborativa Epicentral, firmando uma rede de apoio dentro da
-          comunidade. Trabalhar em rede é algo que está em nosso DNA e em 2019
-          começamos a integrar a maior rede de apoio a favelas do Brasil: a rede
-          Gerando Falcões.
+        <h4 lang-key="footer-h4-endereco">Endereço</h4>
+        Ladeira do Faria, 88 - Morro da Providência, Rio de Janeiro - RJ <br>CEP: 20221-380<br><br>
+        <h4>Email</h4>
+        contato@entreoceueafavela.com<br><br>
+        <h4>Copyright © 2021 | Instituto Entre o Céu e a Favela<br>
+        </h4>
         </p>
       </div>
-    </section>
-    <footer>
-      <div class="chamado_doacao">
-        <a href="https://www.paypal.com/donate/?hosted_button_id=7MTFHLZM2LNMC">Participe dessa história. Faça uma doação.
+      <div class="card_footer">
       </div>
-
-      <div class="container_footer">
-        <div class="card_footer">
-          <img class="logo_footer" src="./src/img/logo2.png" alt="Entre o céu e a Favela">
-          <div class="socialmedia">
-            <a href="https://www.facebook.com/entreoceueafavela/"><img class="icon_facebook" src="./src/img/facebook.svg" alt=""> Facebook</a>
-            <a href="https://www.instagram.com/entreoceueafavela/"><img class="icon_instagram" src="./src/img/instagram.svg" alt=""> Instagram</a>
-            <a href="https://www.youtube.com/entreoceueafavela/"><img class="icon_youtube" src="./src/img/youtube.svg" alt=""> Youtube</a>
-          </div>
-        </div>
-        <div class="card_footer">
-          <p>
-            <h4>Endereço</h4>
-            Ladeira do Faria, 88 - Morro da Providência, Rio de Janeiro - RJ <br>CEP: 20221-380<br><br>
-            <h4>Email</h4>
-            contato@entreoceueafavela.com<br><br>
-            <h4>Copyright © 2021 | Instituto Entre o Céu e a Favela<br>
-            </h4>
-          </p>
-        </div>
-        <div class="card_footer">        
-        </div>
-      </div>
-    </footer>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/stevenschobert/instafeed.js@2.0.0rc1/src/instafeed.min.js"></script><script type="text/javascript" src="./src/script/script.js"></script>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/stevenschobert/instafeed.js@2.0.0rc1/src/instafeed.min.js"></script>
+  <script type="text/javascript" src="./src/script/script.js"></script>
 </body>
-  </html>
+
+</html>

@@ -1,0 +1,84 @@
+{
+    "homepage": {
+        "nav": {
+            "home": "ACCUEIL",
+            "nav-quemsomos": "QUI SOMMES-NOUS?",
+            "nav-ajudar": "COMMENT NOUS SOUTENIR?",
+            "nav-atividades": "ACTIVITÉS",
+            "nav-galeria": "GALERIE",
+            "nav-parceiros": "PARTENAIRES"
+        },
+        "quemsomos": {
+            "p-quemsomos": "Notre mission est de renforcer le rôle des enfants, des jeunes, des femmes et des entrepreneurs locaux par le biais d’actions socioculturelles qui favorisent l’intégration et la transformation sociale.",
+            "btn-saibamais": "En savoir plus "
+        },
+        "ajudar": {
+            "card-h4-mensal": "Don mensuel",
+            "card-p-mensal": "Être un donateur mensuel permet de faire la différence de diverses manières, comme soutenir la continuité des activités et des formations professionnelles, dont le but est d'insérer les jeunes sur le marché du travail. Devenez un donateur mensuel et contribuez à la transformation sociale!",
+            "btn-doepaypal": "Faire un don via PayPal ",
+            "card-h4-apadrinhe": "Parrainez un enfant",
+            "card-p-apadrinhe": "Parrainer un enfant est un acte d'amour, qui permet d'offrir une infinité de possibilités pour qui en a besoin! Parrainez un enfant et faites partie de cette transformation!",
+            "btn-apadrinhe": "Contacter nous ",
+            "card-h4-unica": "Don ponctuel",
+            "card-p-unica": "Un geste ponctuel peut transformer une vie! Faites un don et aidez-nous à améliorer le futur des enfants et des jeunes.",
+            "card-h4-voluntario": "Deviens volontaire",
+            "card-p-voluntario": "Tu souhaites soutenir notre projet et faire partie de notre équipe? Accède à notre plateforme de volontariat.",
+            "btn-voluntario": "Remplir notre formulaire "
+        },
+        "atividades": {
+            "card-p-atividades": "À travers nos activités, nous voulons promouvoir la transformation socio-culturelle de la région portuaire de Rio de Janeiro. Nous offrons des espaces de développement pour les enfants, les jeunes et les femmes afin de renforcer l’accès à la culture, aux qualifications professionnelles et à une orientation complète et efficace pour les habitants de la région.",
+            "btn-atividades": "Découvrez toutes nos activités",
+            "atividades-h4-profissional": "Qualification professionnelle",
+            "atividades-p-profissional-lista": "Maquillage<br>Tresses<br>Informatique<br>Stylisme de sourcils<br>",
+            "atividades-h4-oficinas": "Ateliers",
+            "atividades-p-oficinas-lista": "Écriture créative<br>Percussions<br>Soutien scolaire<br>Théâtre<br>Football<br>Échasses<br>"
+        },
+        "galeria": {
+            "galeria-a-siga": "Suis-nous sur Instagram "
+        }
+    },
+    "nossahistoria": {
+        "sobrenos-h4": "Notre histoire",
+        "sobrenos-p": "Notre histoire commence en 2011 dans la première favela du Brésil, la Providência (Providence).<br /><br /> À la recherche d’une solution qui pourrait améliorer son estime de soi, la fondatrice et PDG de l’Institut Entre o Céu e a Favela, encore débutante dans le théâtre, a trouvé sa réponse et a vu là la chance de faire en sorte que les enfants puissent également avoir accès à l’estime de soi grâce à l’art.<br /><br /> En alliant deux grandes passions, le théâtre et la volonté de transformer des vies, Cintia Sant’anna a utilisé sa bienveillance et son regard passionné sur l’histoire de la colline pour commencer un bulletin d’information mensuel comprenant des actualités locales, des services ainsi qu’un segment dédié aux histoires de la communauté.<br /><br /> Comme une évolution naturelle de ce travail, en 2015, le petit journal a entamé sa digitalisation et s’est transformé en plateforme digitale toujours axée sur la valorisation, l’union et la diffusion de la culture, de l’art et du progrès social.<br /><br /> L’année suivante, nous avons obtenu un siège en partenariat avec la maison collaborative Epicentral, confirmant ainsi un réseau de soutien au sein de la communauté. Travailler en réseau est dans notre ADN et c’est pourquoi en 2019 nous avons commencé à intégrer le plus grand réseau de soutien aux favelas du Brésil : le réseau Gerando Falcões.<br /><br />"
+    },
+    "atividades": {
+        "oficinas-h2": "'Ateliers",
+        "oficinas-h3": "Nos ateliers sont destinés aux enfants de la favela.",
+        "oficinas-h4-percussao": "'Percussions",
+        "oficinas-h5-percussao": "7 à 14 ans",
+        "oficinas-p-percussao": "Avec combien d’instruments se construit une mélodie? Dans les cours de percussions, nos élèves sont invités à expérimenter une des plus belles formes d’expression de l’art: la musique. La musique éveille le côté ludique, en perfectionnant la capacité d’expression, de socialisation, de concentration et en stimulant la créativité.",
+        "oficinas-h4-reforco": "'Soutien Scolaire",
+        "oficinas-h5-reforco": "7 à 14 ans",
+        "oficinas-p-reforco": "Les cours de soutien scolaire ont pour objectif de mettre l’accent sur une éducation complète, orientée vers les sujets et matières pour lesquels les élèves ont des difficultés de compréhension, afin de les aider à améliorer leur performance scolaire.",
+        "oficinas-h4-escrita": "'Écriture créative",
+        "oficinas-h5-escrita": "7 à 14 ans",
+        "oficinas-p-escrita": "L’atelier vise à sensibiliser et à introduire de manière graduelle et attrayante l’importance de la lecture et de l’écriture dans le quotidien des enfants et des jeunes, tout en visant à stimuler leur créativité et leur pensée critique.",
+        "oficinas-h4-teatro": "'Théâtre",
+        "oficinas-h5-teatro": "7 à 14 ans",
+        "oficinas-p-teatro": "Le théâtre permet de travailler l’expression des émotions et aide les enfants et les jeunes à développer des compétences émotionnelles importantes pour leur développement. Pendant les cours, les élèves cultivent la sociabilisation, la mémoire, la concentration, la motricité, l'imagination, la curiosité, la confiance en soi, tout en procurant de la joie lors de leurs représentations sur scène.",
+        "oficinas-h4-futebol": "'Football",
+        "oficinas-h5-futebol": "7 à 14 ans",
+        "oficinas-p-futebol": "Il fait l’unanimité dans le pays, le football est bien plus qu’un sport. Grâce à lui, les enfants et adolescents apprennent d’importantes leçons qui leur seront utiles pour le reste de leur vie. Ensemble, ils apprennent l’importance de respecter l’autre, de contrôler leurs émotions et de coopérer les uns avec les autres pour atteindre leurs objectifs, tout en étant un moyen efficace pour développer le plaisir de pratiquer une activité physique.",
+        "oficinas-h4-perna": "'Échasses",
+        "oficinas-h5-perna": "7 à 14 ans",
+        "oficinas-p-perna": "Jouer permet aux enfants de stimuler leur socialisation, leur créativité, tout en leur permettant de pratiquer une activité physique. Et quoi de mieux que de développer ces compétences en regardant le monde d’en haut perché sur des échasses.",
+        "qualificacao-h2": "'Qualification Professionnelle",
+        "qualificacao-h3": "Nos cours de qualification professionnelle sont destinés aux jeunes et adultes de la favela.",
+        "qualificacao-h4-trancas": "'Tresses",
+        "qualificacao-h5-trancas": "à partir de 16 ans",
+        "qualificacao-p-trancas": "Développer l’autonomie grâce au soin des cheveux. Formation professionnelle de tressage comme moyen de générer des revenus pour les femmes qui souhaitent apprendre ou perfectionner cet art.",
+        "qualificacao-h4-informatica": "'Informatique",
+        "qualificacao-h5-informatica": "à partir de 16 ans",
+        "qualificacao-p-informatica": "Développer des compétences en informatique est essentiel pour l’évolution professionnelle des habitants des favelas. Nous disposons d’un espace dédié aux cours d’informatique, avec des ordinateurs à usage individuel afin que les élèves puissent suivre les cours en pratiquant.",
+        "qualificacao-h4-sobrancelha": "'Stylisme de sourcils",
+        "qualificacao-h5-sobrancelha": "à partir de 16 ans",
+        "qualificacao-p-sobrancelha": "Cours pratiques pour qualifier des professionnelles dans une des techniques les plus recherchées dans le domaine de l’esthétique. Ainsi, nous offrons à nos élèves une nouvelle possibilité de carrière, tout en créant une indépendance financière et de l’autonomie.",
+        "qualificacao-h4-maquiagem": "'Maquillage",
+        "qualificacao-h5-maquiagem": "à partir de 16 ans",
+        "qualificacao-p-maquiagem": "Le maquillage contribue à la valorisation de la beauté, l’amélioration de l’estime de soi et par conséquent améliore la santé mentale des personnes. Travailler dans le secteur de la beauté permet aux élèves diplômés d’accéder à un vaste marché du travail, dans lequel il est possible d’opérer dans divers secteurs, tels que les traditionnels événements sociaux et professionnels pour lesquels le maquillage et l’embellissement sont toujours sollicités."
+    },
+    "footer": {
+        "footer-doacao": "Fait partie de cette histoire. Fait un don.",
+        "footer-h4-endereco": "Adresse"
+    }
+}

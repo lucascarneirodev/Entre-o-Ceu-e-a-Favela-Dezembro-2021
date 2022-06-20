@@ -1,0 +1,84 @@
+{
+    "homepage": {
+        "nav": {
+            "home": "INÍCIO",
+            "nav-quemsomos": "QUEM SOMOS",
+            "nav-ajudar": "COMO AJUDAR",
+            "nav-atividades": "ATIVIDADES",
+            "nav-galeria": "GALERIA",
+            "nav-parceiros": "PARCEIROS"
+        },
+        "quemsomos": {
+            "p-quemsomos": "Nossa missão é potencializar o protagonismo de crianças, jovens, mulheres e empreendedores locais por meio de ações socioculturais que promovam a inclusão e a transformação social.",
+            "btn-saibamais": "Saiba mais "
+        },
+        "ajudar": {
+            "card-h4-mensal": "Doação mensal",
+            "card-p-mensal": "Ser um doador mensal possibilita fazer a diferença de diversas formas como o apoio a continuação de oficinas e cursos profissionalizantes voltados para a entrada desses jovens no mercado de trabalho. Seja um doador mensal e contribua com a transformação social!",
+            "btn-doepaypal": "Doe com PayPal ",
+            "card-h4-apadrinhe": "Apadrinhe uma criança",
+            "card-p-apadrinhe": "Apadrinhar uma criança é um ato de amor! Acolher um futuro é abrir uma infinidade de possibilidades a quem precisa! Apadrinhe uma criança e seja parte dessa transformação!",
+            "btn-apadrinhe": "Entre em contato ",
+            "card-h4-unica": "Doação única",
+            "card-p-unica": "Um único gesto pode transformar uma vida! Doe e nos ajude a impulsionar o futuro de crianças e jovens.",
+            "card-h4-voluntario": "Seja voluntário",
+            "card-p-voluntario": "Quer abraçar o projeto e fazer parte do nosso time? Acesse nossa plataforma de voluntariado.",
+            "btn-voluntario": "Preencha nosso formulário "
+        },
+        "atividades": {
+            "card-p-atividades": "Com nossas atividades, queremos promover a transformação sócio cultural na região portuária do Rio de Janeiro. Nós oferecemos espaços de desenvolvimento para crianças, jovens e mulheres e geramos qualificação, acesso à cultura e uma orientação profissional completa e efetiva para os moradores da região.",
+            "btn-atividades": "Veja todas as atividades",
+            "atividades-h4-profissional": "Qualificação profissional",
+            "atividades-p-profissional-lista": "Maquiagem<br>Trança<br>Informática<br>Design de sobrancelha<br>",
+            "atividades-h4-oficinas": "Oficinas",
+            "atividades-p-oficinas-lista": "Escrita Criativa<br>Percussão<br>Reforço Escolar<br>Teatro<br>Futebol<br>Perna de pau<br>"
+        },
+        "galeria": {
+            "galeria-a-siga": "Siga a gente no Instagram "
+        }
+    },
+    "nossahistoria": {
+        "sobrenos-h4": "Nossa história",
+        "sobrenos-p": "Nossa história começa em 2011 na primeira favela do Brasil, a Providência.<br /><br />Em busca de uma solução que viesse a melhorar sua auto estima, a fundadora e CEO do Instituto Entre o Céu e Favela encontrou, ainda jovem no teatro, sua resposta, e viu ali a chance de fazer com que crianças também tivessem acesso a auto estima através da arte.<br /><br />Aliando duas grandes paixões, o teatro e a vontade de transformar vidas, Cíntia Sant´anna utilizou a inquietude e um olhar apaixonado por essa história que o morro carrega e iniciou um informativo mensal com notícias, serviços e um segmento para contar as histórias da comunidade.<br /><br />Como uma evolução natural desse trabalho, em 2015, o pequeno jornal acompanhou a digitalização e se transformou em uma plataforma digital sempre focada em valorizar, unir e divulgar a cultura, arte e desenvolvimento social.<br /><br />No ano seguinte, passamos a ter uma sede em parceria com a casa colaborativa Epicentral, firmando uma rede de apoio dentro da comunidade. Trabalhar em rede é algo que está em nosso DNA e em 2019 começamos a integrar a maior rede de apoio a favelas do Brasil: a rede Gerando Falcões."
+    },
+    "atividades": {
+        "oficinas-h2": "Oficinas",
+        "oficinas-h3": "Nossas oficinas tem foco em crianças da comunidade.",
+        "oficinas-h4-percussao": "Percussão",
+        "oficinas-h5-percussao": "7 à 14 anos",
+        "oficinas-p-percussao": "Com quantos instrumentos se constrói uma melodia? Nas aulas de percussão, nossos alunos são convidados a experimentar uma das mais belas expressões de arte: a música. A musicalização desperta o lado lúdico, aperfeiçoando a capacidade de expressão, a socialização, a concentração e estimula a criatividade.",
+        "oficinas-h4-reforco": "Reforço Escolar",
+        "oficinas-h5-reforco": "7 à 14 anos",
+        "oficinas-p-reforco": "As aulas de reforço escolar tem como objetivo focar em uma educação específica em certo tópico cujo o aluno apresente alguma dificuldade de compreensão, auxiliando-o a captar melhor os conteúdos e melhorar sua performance escolar.",
+        "oficinas-h4-escrita": "Escrita Criativa",
+        "oficinas-h5-escrita": "7 à 14 anos",
+        "oficinas-p-escrita": "A oficina busca sensibilizar e incluir de maneira gradativa e envolvente a importância da leitura e da escrita no cotidiano das crianças e jovens, visando aguçar sua criatividade e o seu pensamento crítico.",
+        "oficinas-h4-teatro": "Teatro",
+        "oficinas-h5-teatro": "7 à 14 anos",
+        "oficinas-p-teatro": "O teatro trabalha com a expressão das emoções e auxilia crianças e jovens a desenvolverem habilidades emocionais importantes para o seu crescimento. Nas aulas, os alunos exercitam a socialização, memória, concentração, habilidades motoras, imaginação, curiosidade, desinibição, além de proporcionar a alegria de apresentar sua arte nos palcos.",
+        "oficinas-h4-futebol": "Futebol",
+        "oficinas-h5-futebol": "7 à 14 anos",
+        "oficinas-p-futebol": "Unanimidade no país, o futebol é muito mais do que um esporte. Através dele, jovens e crianças aprendem lições importantes para levar para o resto da vida. Juntos, aprendem que precisam cooperar uns com os outros para atingir seus objetivos, a lidar com as emoções, a respeitar o próximo, além de ser um meio eficaz de desenvolver o gosto pela prática de exercícios físicos.",
+        "oficinas-h4-perna": "Perna de pau",
+        "oficinas-h5-perna": "7 à 14 anos",
+        "oficinas-p-perna": "O ato de brincar ajuda as crianças na socialização, na criatividade e a praticar esportes. E nada melhor do que desenvolver essas habilidades olhando o mundo de cima da perna de pau!",
+        "qualificacao-h2": "Qualificação Profissional",
+        "qualificacao-h3": "Nossos cursos de qualificação profissional tem foco em jovens e adultos da periferia.",
+        "qualificacao-h4-trancas": "Trança",
+        "qualificacao-h5-trancas": "a partir de 16 anos",
+        "qualificacao-p-trancas": " Construir autonomia através do cuidado com os cabelos. Formação profissional em trancismo como forma de geração de renda para mulheres que desejam aprender ou aperfeiçoar a técnica.",
+        "qualificacao-h4-informatica": "Informática",
+        "qualificacao-h5-informatica": "a partir de 16 anos",
+        "qualificacao-p-informatica": " Desenvolver habilidades de informática é essencial para o crescimento profissional dos moradores de favelas. Contamos com espaço dedicado às aulas de informática, com computadores de uso individual para que os alunos possam acompanhar as aulas aprendendo na prática.",
+        "qualificacao-h4-sobrancelha": "Design de Sobrancelha",
+        "qualificacao-h5-sobrancelha": "a partir de 16 anos",
+        "qualificacao-p-sobrancelha": "Aulas práticas para qualificar profissionais numa das técnicas mais procuradas da área da estética. Assim, proporcionamos as nossas alunas uma nova possibilidade de carreira, gerando independência financeira e autonomia.",
+        "qualificacao-h4-maquiagem": "Maquiagem",
+        "qualificacao-h5-maquiagem": "a partir de 16 anos",
+        "qualificacao-p-maquiagem": "A maquiagem contribui com a valorização da beleza, o aumento da autoestima e, consequentemente, com a melhora da saúde mental dos indivíduos. Atuar no segmento da beleza proporciona uma amplo mercado para o profissional formado uma vez que o mesmo pode atuar em diversos setores incluindo os tradicionais eventos sociais e profissionais para os quais a maquiagem de embelezamento é sempre requisitada."
+    },
+    "footer": {
+        "footer-doacao": "Participe dessa história. Faça uma doação.",
+        "footer-h4-endereco": "Endereço"
+    }
+}

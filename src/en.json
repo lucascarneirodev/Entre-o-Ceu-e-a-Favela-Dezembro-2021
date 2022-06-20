@@ -1,0 +1,84 @@
+{
+    "homepage": {
+        "nav": {
+            "home": "HOME",
+            "nav-quemsomos": "WHO WE ARE",
+            "nav-ajudar": "HOW TO HELP US?",
+            "nav-atividades": "ACTIVITIES",
+            "nav-galeria": "GALLERY",
+            "nav-parceiros": "PARTNERS"
+        },
+        "quemsomos": {
+            "p-quemsomos": "Our mission is to enhance the leading role of children, youngsters, women and local entrepreneurs through sociocultural actions that promote social inclusion and change.",
+            "btn-saibamais": "Learn more "
+        },
+        "ajudar": {
+            "card-h4-mensal": "Monthly donation",
+            "card-p-mensal": "Being a monthly donor is impactful in several ways, such as supporting the continuity of activities and professional classes, which facilitate access to the labor market for young people. Become a monthly donor and contribute to the social transformation!",
+            "btn-doepaypal": "Donate via PayPal ",
+            "card-h4-apadrinhe": "Sponsor a child",
+            "card-p-apadrinhe": "To sponsor a child is an act of love. To welcome a future is opening an infinity of possibilities to those who need it! Sponsor a child and be a part of this transformation!",
+            "btn-apadrinhe": "Contact us ",
+            "card-h4-unica": "One-time donation",
+            "card-p-unica": "A single gesture can transform a life! Make a donation and help us better the future of children and young people.",
+            "card-h4-voluntario": "Become a volunteer",
+            "card-p-voluntario": "You want to help our project and join our team? Access our volunteering platform.",
+            "btn-voluntario": "Fill in our form "
+        },
+        "atividades": {
+            "card-p-atividades": "Through our activities we want to promote the socio-cultural transformation of the Rio De Janeiro port region. We offer development spaces for children, youngsters and women in order to enhance cultural accessibility and provide complete career guidance and professional qualifications, for the inhabitants of the region.",
+            "btn-atividades": "Discover our activities",
+            "atividades-h4-profissional": "Professional qualification",
+            "atividades-p-profissional-lista": "Make-up<br>Braids<br>Computing<br>Brow styling<br>",
+            "atividades-h4-oficinas": "Workshops",
+            "atividades-p-oficinas-lista": "Creative writing<br>Percussions<br>Tutoring<br>Theatre<br>Football<br>Stilts<br>"
+        },
+        "galeria": {
+            "galeria-a-siga": "Follow us on Instagram "
+        }
+    },
+    "nossahistoria": {
+        "sobrenos-h4": "Our history",
+        "sobrenos-p": "Our story begins in 2011 in Brazil's first favela, the Providência.<br /><br /> As she was searching for a way to improve her own self-esteem, the foundress and CEO of the Institute Entre o Céu e a Favela found in her theater background a way to boost children's self-esteem through art.<br /><br /> Combining her two great passions, theater and the will to transform lives, Cintia Sant'anna used her restlessness and her love for the history the hill carries to create a monthly newsletter with breaking news, services and a segment to tell stories of the community.<br /><br /> As a natural evolution of this work, in 2015, the small newspaper followed the path of digitisation and turned into a digital platform, which goals were still enhancing, uniting, spreading culture, art and social development within the community.<br /><br /> The following year, we opened a headquarter in partnership with the collaborative house Epicentral, thus establishing a supportive network inside the community. Working in collaborations is in our DNA and in 2019, we started joining the biggest Brazilian favelas' support network : Gerando Falcões.<br /><br />"
+    },
+    "atividades": {
+        "oficinas-h2": "Workshops",
+        "oficinas-h3": "Our workshops focus on the favela's children.",
+        "oficinas-h4-percussao": "Percussions",
+        "oficinas-h5-percussao": "7 to 14 years old",
+        "oficinas-p-percussao": "With how many instruments is a melody built? In the percussions classes, our students are invited to experiment with one of the most beautiful art expressions: music. Music awakens the fun side and improves the ability to self-express, socialize, concentrate and create.",
+        "oficinas-h4-reforco": "Tutoring",
+        "oficinas-h5-reforco": "7 to 14 years old",
+        "oficinas-p-reforco": "The tutoring’s goal is to promote a full and comprehensive education that focuses on subjects for which children may have some understanding difficulties in order to help them to improve their academic performance.",
+        "oficinas-h4-escrita": "Creative Writing",
+        "oficinas-h5-escrita": "7 to 14 years old",
+        "oficinas-p-escrita": "The workshop aims to sensibilize and gradually introduce in an attractive way the importance of reading and writing in the daily life of children and youngsters, while seeking to stimulate their creativity and critical thinking.",
+        "oficinas-h4-teatro": "Theater",
+        "oficinas-h5-teatro": "7 to 14 years old",
+        "oficinas-p-teatro": "Theater encourages the expression of emotions and helps the youth and children to develop their emotional skills, which are essential to their growth. During the classes, students practice their socialization skills, memory, concentration, motor skills, imagination, curiosity, disinhibition and provide happiness by performing on stage.",
+        "oficinas-h4-futebol": "Football",
+        "oficinas-h5-futebol": "7 to 14 years old",
+        "oficinas-p-futebol": "It receives unanimous love in the country, football is much more than a sport. Through it, the youth and children learn important lessons that they will use for the rest of their lives. Together, they learn how to respect others, control their emotions and cooperate with one another to achieve their goals. Besides, it is an effective way to develop the pleasure of practicing a physical activity.",
+        "oficinas-h4-perna": "Stilts",
+        "oficinas-h5-perna": "7 to 14 years old",
+        "oficinas-p-perna": "Playing helps children develop their socialization skills, creativity, and practice sports. There is nothing better than developing these skills while looking down on the world on top of stilts.",
+        "qualificacao-h2": "Professional Qualification",
+        "qualificacao-h3": "Our professional qualification courses focus on the favela’s youngsters and adults.",
+        "qualificacao-h4-trancas": "Braids",
+        "qualificacao-h5-trancas": "from 16 years old",
+        "qualificacao-p-trancas": "To build autonomy through hair care. Professional training in braiding as a means of income generation for women who desire to learn or improve their technique.",
+        "qualificacao-h4-informatica": "Computing",
+        "qualificacao-h5-informatica": "from 16 years old",
+        "qualificacao-p-informatica": "Developing computer skills is crucial for the professional growth of favela’s residents. We have an open space dedicated to computer classes, with computers for individual use so that the students can learn through practical training.",
+        "qualificacao-h4-sobrancelha": "Brow styling",
+        "qualificacao-h5-sobrancelha": "from 16 years old",
+        "qualificacao-p-sobrancelha": "Practical classes to qualify professionals in one of the most popular techniques in cosmetic treatments. Thereby, we provide our students with a new possibility of career, creating financial independence and autonomy.",
+        "qualificacao-h4-maquiagem": "Make-up",
+        "qualificacao-h5-maquiagem": "from 16 years old",
+        "qualificacao-p-maquiagem": "Make-up contributes to the valorization of beauty, the improvement of self-esteem and consequently the improvement of people's mental health. Working in the beauty industry enables graduate students to access an extensive labor market, in which it is possible to operate in several sectors, such as the traditional social and professional events for which make-up and embellishment are always requested."
+    },
+    "footer": {
+        "footer-doacao": "Be part of this story. Make a donation.",
+        "footer-h4-endereco": "Adress"
+    }
+}

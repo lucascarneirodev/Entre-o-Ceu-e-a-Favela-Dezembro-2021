@@ -50,13 +50,21 @@ nav{
   font-size: 0.8em;
   width: 50vw;
 }
-
+.nav-idiomas a{
+  margin-left:10px;
+  z-index: index 2;
+}
 .pipanav{
   position: absolute;
   width: 120px;
-  margin-left: -125px;
+  margin-left: -136px;
   margin-top:15px;
   opacity: 0;
+  z-index: 0;
+}
+
+.languages{
+  cursor: pointer;
 }
 
 nav a:hover > .pipanav{
@@ -211,7 +219,7 @@ button{
   justify-content: center;
 
   position: static;
-  width: 15vw;
+  min-width: 15vw;
   height: 5vh;
   left: 0px;
   top: 124px;
@@ -283,7 +291,7 @@ button{
   justify-content: center;
 
   position: static;
-  width: 18vw;
+  min-width: 15vw;
   height: 5vh;
   left: 0px;
   top: 124px;
@@ -598,7 +606,7 @@ min-height: 140vh;  width: 100vw;
 #pipanav {
   position: absolute;
   width: 120px;
-  margin-left: -80px;
+  left: 0px;
   margin-top:15px;
   opacity: 0;
 }

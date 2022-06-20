@@ -1,4 +1,4 @@
-var languages = {
+{
     "pt": {
         "home": "INÍCIO <img id='pipanav' src='./src/img/pipa.png'>",
         "nav-quemsomos": "QUEM SOMOS <img class='pipanav' src='./src/img/pipa.png'>",
@@ -197,63 +197,4 @@ var languages = {
         "footer-doacao": "Be part of this story. Make a donation.",
         "footer-h4-endereco": "Adress"
     }
-}
-
-var userFeed = new Instafeed({
-    get: 'user',
-    target: "instafeed-container",
-    resolution: 'low_resolution',
-    accessToken: 'IGQVJWNWYxdDhaeFU3YWR0LWRCVXE1d3NiMFl1WkNZAVE56LVdfeFdfeVBTRVIyQ08yLTlTazd0RXN3VTlzN2FMYW9seWRiYjRkdkxpSW5ZARU5SREhjVy16SHk5YndQa2ZA3cmV1RHBRVTY4VTdQeVk4bwZDZD'
-});
-userFeed.run();
-
-var navElements = document.getElementsByClassName('nav-element');
-console.log(navElements[0].offsetWidth);
-
-const parallax_home = document.getElementById("quemsomos");
-
-window.addEventListener("scroll", function () {
-    let offset = window.pageYOffset;
-    parallax_home.style.backgroundPositionY = offset * 0.0 + "px"
-})
-
-const parallax_about = document.getElementById("sobrenos");
-
-window.addEventListener("scroll", function () {
-    let offset_about = window.pageYOffset;
-    parallax_about.style.backgroundPositionY = offset_about * 0.5 + "px";
-})
-
-
-let lang = navigator.language.substr(0, 2) == "en" || navigator.language.substr(0, 2) == "pt" || navigator.language.substr(0, 2) == "fr" ? navigator.language.substr(0, 2) : "pt"
-
-document.addEventListener('DOMContentLoaded', () => {
-    languagesMatch(lang)
-    translate()
-});
-
-var newLang = document.getElementsByClassName("languages")
-
-addEventListener("click", (newLang) => {
-    newLang = newLang.srcElement.firstChild.data
-    languagesMatch(newLang.toLowerCase())
-    translate()
-})
-
-function translate() {
-    let zones = document.querySelectorAll('html [lang-key]');
-    applyStrings(zones);
-}
-
-function applyStrings(containers) {
-    containers.forEach(container => {
-        let key = container.getAttribute('lang-key');
-        if (key) {
-            container.innerHTML = currentLanguages[key];
-        }
-    })
-}
-
-function languagesMatch(lang) {
-    currentLanguages = languages[lang]
 }
