@@ -207,8 +207,7 @@ var userFeed = new Instafeed({
 });
 userFeed.run();
 
-var navElements = document.getElementsByClassName('nav-element');
-console.log(navElements[0].offsetWidth);
+
 
 const parallax_home = document.getElementById("quemsomos");
 
@@ -230,6 +229,7 @@ let lang = navigator.language.substr(0, 2) == "en" || navigator.language.substr(
 document.addEventListener('DOMContentLoaded', () => {
     languagesMatch(lang)
     translate()
+    fitNavMargin()
 });
 
 var newLang = document.getElementsByClassName("languages")
@@ -238,7 +238,16 @@ addEventListener("click", (newLang) => {
     newLang = newLang.srcElement.firstChild.data
     languagesMatch(newLang.toLowerCase())
     translate()
+    fitNavMargin()
 })
+
+function fitNavMargin() {
+    var navElements = document.getElementsByClassName('nav-element');
+    var pipanav = document.getElementsByClassName('pipanav');
+    for (var i = 0; i < pipanav.length; i++) {
+        pipanav[i].style.marginLeft = -1 * navElements[i].offsetWidth - 30 + "px"
+    }
+}
 
 function translate() {
     let zones = document.querySelectorAll('html [lang-key]');
