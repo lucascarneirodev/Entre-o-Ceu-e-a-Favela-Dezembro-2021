@@ -1,5 +1,10 @@
 var languages = {
     "pt": {
+        "img-parceiros2": "./src/img/parceiros2.png",
+        "img-galeria": "./src/img/galeria.png",
+        "img-atividades2": "./src/img/atividades2.png",
+        "img-comoajudar2": "./src/img/comoajudar2.png",
+        "img-quemsomos2": "./src/img/quemsomos2.png",
         "home": "INÍCIO <img id='pipanav' src='./src/img/pipa.png'>",
         "nav-quemsomos": "QUEM SOMOS <img class='pipanav' src='./src/img/pipa.png'>",
         "nav-ajudar": "COMO AJUDAR <img class='pipanav' src='./src/img/pipa.png'>",
@@ -66,6 +71,11 @@ var languages = {
         "footer-h4-endereco": "Endereço"
     },
     "fr": {
+        "img-parceiros2": "./src/img/frparceiros2.png",
+        "img-galeria": "./src/img/frgaleria.png",
+        "img-atividades2": "./src/img/fratividades2.png",
+        "img-comoajudar2": "./src/img/frcomoajudar2.png",
+        "img-quemsomos2": "./src/img/frquemsomos2.png",
         "home": "ACCUEIL <img id='pipanav' src='./src/img/pipa.png'>",
         "nav-quemsomos": "QUI SOMMES-NOUS? <img class='pipanav' src='./src/img/pipa.png'>",
         "nav-ajudar": "COMMENT NOUS SOUTENIR? <img class='pipanav' src='./src/img/pipa.png'>",
@@ -132,6 +142,11 @@ var languages = {
         "footer-h4-endereco": "Adresse"
     },
     "en": {
+        "img-parceiros2": "./src/img/enparceiros2.png",
+        "img-galeria": "./src/img/engaleria.png",
+        "img-atividades2": "./src/img/enatividades2.png",
+        "img-comoajudar2": "./src/img/encomoajudar2.png",
+        "img-quemsomos2": "./src/img/enquemsomos2.png",
         "home": "HOME <img id='pipanav' src='./src/img/pipa.png'>",
         "nav-quemsomos": "WHO WE ARE <img class='pipanav' src='./src/img/pipa.png'>",
         "nav-ajudar": "HOW TO HELP US? <img class='pipanav' src='./src/img/pipa.png'>",
@@ -251,7 +266,9 @@ function fitNavMargin() {
 
 function translate() {
     let zones = document.querySelectorAll('html [lang-key]');
+    let imgs = document.querySelectorAll('html [img-key]');
     applyStrings(zones);
+    applyImgsSrc(imgs);
 }
 
 function applyStrings(containers) {
@@ -263,6 +280,17 @@ function applyStrings(containers) {
     })
 }
 
+function applyImgsSrc(container) {
+    for (i=0; i < container.length; i++) {
+        let key = container[i].getAttribute('img-key');
+        if (key) {
+            console.log(i);
+            console.log(container[i].src)
+            container[i].src = currentLanguages[key];
+        }
+    }
+}
+
 function languagesMatch(lang) {
-    currentLanguages = languages[lang]
+    currentLanguages = languages[lang];
 }
