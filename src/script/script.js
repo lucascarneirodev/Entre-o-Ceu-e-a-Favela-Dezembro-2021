@@ -9,6 +9,7 @@ var languages = {
         "nav-quemsomos": "QUEM SOMOS <img class='pipanav' src='./src/img/pipa.png'>",
         "nav-ajudar": "COMO AJUDAR <img class='pipanav' src='./src/img/pipa.png'>",
         "nav-atividades": "ATIVIDADES <img class='pipanav' src='./src/img/pipa.png'>",
+        "nav-transparencia": "TRANSPARÊNCIA <img class='pipanav' src='./src/img/pipa.png'>",
         "nav-galeria": "GALERIA <img class='pipanav' src='./src/img/pipa.png'>",
         "nav-parceiros": "PARCEIROS <img class='pipanav' src='./src/img/pipa.png'>",
         "p-quemsomos": "Nossa missão é potencializar o protagonismo de crianças, jovens, mulheres e empreendedores locais por meio de ações socioculturais que promovam a inclusão e a transformação social.",
@@ -68,7 +69,13 @@ var languages = {
         "qualificacao-h5-maquiagem": "a partir de 16 anos",
         "qualificacao-p-maquiagem": "A maquiagem contribui com a valorização da beleza, o aumento da autoestima e, consequentemente, com a melhora da saúde mental dos indivíduos. Atuar no segmento da beleza proporciona uma amplo mercado para o profissional formado uma vez que o mesmo pode atuar em diversos setores incluindo os tradicionais eventos sociais e profissionais para os quais a maquiagem de embelezamento é sempre requisitada.",
         "footer-doacao": "Participe dessa história. Faça uma doação.",
-        "footer-h4-endereco": "Endereço"
+        "footer-h4-endereco": "Endereço",
+        "quemsomoscard-h4-missao": "Missão",
+        "quemsomoscard-h4-visao": "Visão",
+        "quemsomoscard-h4-valores": "Valores",
+        "quemsomoscard-p-missao": "Gerar inclusão e transformação social para crianças, jovens e mulheres de favelas, potencializando o seu protagonismo por meio de ações socioculturais.",
+        "quemsomoscard-p-visao": "Construir um novo mundo, dando fim a desigualdade social, se tornando referência de inclusão e transformação da Região Portuária.",
+        "quemsomoscard-p-valores": "Propósito, disciplina, protagonismo, transformação, promoção de autonomia, diversidade e integração."
     },
     "fr": {
         "img-parceiros2": "./src/img/frparceiros2.png",
@@ -79,6 +86,7 @@ var languages = {
         "home": "ACCUEIL <img id='pipanav' src='./src/img/pipa.png'>",
         "nav-quemsomos": "QUI SOMMES-NOUS? <img class='pipanav' src='./src/img/pipa.png'>",
         "nav-ajudar": "COMMENT NOUS SOUTENIR? <img class='pipanav' src='./src/img/pipa.png'>",
+        "nav-transparencia": "TRANSPARENCE <img class='pipanav' src='./src/img/pipa.png'>",
         "nav-atividades": "ACTIVITÉS <img class='pipanav' src='./src/img/pipa.png'>",
         "nav-galeria": "GALERIE <img class='pipanav' src='./src/img/pipa.png'>",
         "nav-parceiros": "PARTENAIRES <img class='pipanav' src='./src/img/pipa.png'>",
@@ -139,7 +147,13 @@ var languages = {
         "qualificacao-h5-maquiagem": "à partir de 16 ans",
         "qualificacao-p-maquiagem": "Le maquillage contribue à la valorisation de la beauté, l’amélioration de l’estime de soi et par conséquent améliore la santé mentale des personnes. Travailler dans le secteur de la beauté permet aux élèves diplômés d’accéder à un vaste marché du travail, dans lequel il est possible d’opérer dans divers secteurs, tels que les traditionnels événements sociaux et professionnels pour lesquels le maquillage et l’embellissement sont toujours sollicités.",
         "footer-doacao": "Fait partie de cette histoire. Fait un don.",
-        "footer-h4-endereco": "Adresse"
+        "footer-h4-endereco": "Adresse",
+        "quemsomoscard-h4-missao": "Mission",
+        "quemsomoscard-h4-visao": "Vision",
+        "quemsomoscard-h4-valores": "Valeurs",
+        "quemsomoscard-p-missao": "Promouvoir l’intégration et la transformation sociale des enfants, des jeunes et des femmes de la favela, en renforçant leur rôle par le biais d’activités socioculturelles.",
+        "quemsomoscard-p-visao": "Construire un monde nouveau, mettant fin aux inégalités sociales et devenant ainsi la référence d’intégration et de transformation de la région portuaire de Rio de Janeiro.",
+        "quemsomoscard-p-valores": "Vocation, discipline, protagonisme, transformation, promotion de l’indépendance, diversité et inclusion."
     },
     "en": {
         "img-parceiros2": "./src/img/enparceiros2.png",
@@ -151,6 +165,7 @@ var languages = {
         "nav-quemsomos": "WHO WE ARE <img class='pipanav' src='./src/img/pipa.png'>",
         "nav-ajudar": "HOW TO HELP US? <img class='pipanav' src='./src/img/pipa.png'>",
         "nav-atividades": "ACTIVITIES <img class='pipanav' src='./src/img/pipa.png'>",
+        "nav-transparencia": "TRANSPARENCY <img class='pipanav' src='./src/img/pipa.png'>",
         "nav-galeria": "GALLERY <img class='pipanav' src='./src/img/pipa.png'>",
         "nav-parceiros": "PARTNERS <img class='pipanav' src='./src/img/pipa.png'>",
         "p-quemsomos": "Our mission is to enhance the leading role of children, youngsters, women and local entrepreneurs through sociocultural actions that promote social inclusion and change.",
@@ -210,7 +225,13 @@ var languages = {
         "qualificacao-h5-maquiagem": "from 16 years old",
         "qualificacao-p-maquiagem": "Make-up contributes to the valorization of beauty, the improvement of self-esteem and consequently the improvement of people's mental health. Working in the beauty industry enables graduate students to access an extensive labor market, in which it is possible to operate in several sectors, such as the traditional social and professional events for which make-up and embellishment are always requested.",
         "footer-doacao": "Be part of this story. Make a donation.",
-        "footer-h4-endereco": "Adress"
+        "footer-h4-endereco": "Adress",
+        "quemsomoscard-h4-missao": "Mission",
+        "quemsomoscard-h4-visao": "Vision",
+        "quemsomoscard-h4-valores": "Values",
+        "quemsomoscard-p-missao": "Create social inclusion and change for children, youngsters and women from the favela, by enhancing their leading role through sociocultural actions.",
+        "quemsomoscard-p-visao": "Build a new world, put an end to social inequalities and become a model of inclusion and transformation in the port area of Rio de Janeiro.",
+        "quemsomoscard-p-valores": "Purpose, discipline, protagonism, transformation, promotion of independence, diversity and inclusion."
     }
 }
 

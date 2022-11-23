@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 
 <head>
   <meta charset="UTF-8" />
@@ -8,7 +8,7 @@
   <link rel="shortcut icon" href="./src/img/icon.png" type="image/x-icon">
   <link rel="stylesheet" href="./src/css/style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" />
-
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
   <title>Entre o Céu e a Favela</title>
 </head>
 
@@ -17,8 +17,9 @@
     <img class="logo_home" src="./src/img/logo.png" alt="Entre o Céu e a Favela" />
     <nav>
       <a href="/about.html" lang-key="nav-quemsomos" class="nav-element">QUEM SOMOS <img class="pipanav" src="./src/img/pipa.png"></a>
-      <a href="/#ajudar" lang-key="nav-ajudar" class="nav-element">COMO AJUDAR <img class="pipanav" src="./src/img/pipa.png"></a>
+      <a href="/#ajudar" lang-key="nav-ajudar" class="nav-element">FAÇA PARTE <img class="pipanav" src="./src/img/pipa.png"></a>
       <a href="/#atividades" lang-key="nav-atividades" class="nav-element">ATIVIDADES <img class="pipanav" src="./src/img/pipa.png"></a>
+      <a href="/#transparencia" lang-key="nav-transparencia" class="nav-element">TRANSPARÊNCIA <img class="pipanav" src="./src/img/pipa.png"></a>
       <a href="/#galeria" lang-key="nav-galeria" class="nav-element">GALERIA <img class="pipanav" src="./src/img/pipa.png"></a>
       <a href="/#parceiros" lang-key="nav-parceiros" class="nav-element">PARCEIROS <img class="pipanav" src="./src/img/pipa.png"></a>
       <div class="nav-idiomas">
@@ -31,19 +32,66 @@
 
   <section id="quemsomos">
     <div class="background-overlay">
-
-      <div class="quemsomos">
-        <img img-key="img-quemsomos2" src="./src/img/quemsomos2.png" alt="Quem somos" />
-        <p lang-key="p-quemsomos">
-          Nossa missão é potencializar o protagonismo de crianças, jovens,
-          mulheres e empreendedores locais por meio de ações socioculturais que
-          promovam a inclusão e a transformação social.
-        </p>
-        <a href="/about.html" target="_blank">
-          <button lang-key="btn-saibamais">
-            Saiba mais <img src="./src/img/Arrow 0.png" alt="" />
-          </button>
-        </a>
+      <img src="./src/img/doarparatransformar.png" alt="Doar para transformar" class="doarparatransformar">
+      <div class="quemsomos d-none d-lg-flex">
+        <div class="quemsomoscard">
+          <h4 lang-key="quemsomoscard-h4-missao">Missão</h4>
+          <p lang-key="quemsomoscard-p-missao">Gerar inclusão e transformação social para crianças, jovens e mulheres de favelas, potencializando 
+            o seu protagonismo por meio de ações socioculturais.
+            </p>
+        </div>
+        <div class="quemsomoscard">
+          <h4 lang-key="quemsomoscard-h4-visao">Visão</h4>
+          <p lang-key="quemsomoscard-p-visao">
+            Construir um novo mundo, dando fim a 
+            desigualdade social, se tornando referência de inclusão 
+            e transformação da Região Portuária.
+          </p>
+        </div>
+        <div class="quemsomoscard">
+          <h4 lang-key="quemsomoscard-h4-valores">Valores</h4>
+          <p lang-key="quemsomoscard-p-valores">
+            Propósito, disciplina,
+            protagonismo, transformação,
+            promoção de autonomia,
+            diversidade e integração.
+          </p>
+        </div>
+      </div>
+      <div class="quemsomoscarousel carousel slide d-lg-none d-sm-block" id="quemsomoscarousel" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="quemsomoscardcarousel carousel-item active">
+            <h4 lang-key="quemsomoscard-h4-missao">Missão</h4>
+            <p lang-key="quemsomoscard-p-missao">Gerar inclusão e transformação social para crianças, jovens e mulheres de favelas, potencializando 
+              o seu protagonismo por meio de ações socioculturais.
+              </p>
+          </div>
+          <div class="quemsomoscardcarousel carousel-item">
+            <h4 lang-key="quemsomoscard-h4-visao">Visão</h4>
+            <p lang-key="quemsomoscard-p-visao">
+              Construir um novo mundo, dando fim a 
+              desigualdade social, se tornando referência de inclusão 
+              e transformação da Região Portuária.
+            </p>
+          </div>
+          <div class="quemsomoscardcarousel carousel-item">
+            <h4 lang-key="quemsomoscard-h4-valores">Valores</h4>
+            <p lang-key="quemsomoscard-p-valores">
+              Propósito e disciplina
+              protagonismo e transformação
+              promoção de autonomia
+              diversidade e integração
+            </p>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#quemsomoscarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#quemsomoscarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
     </div>
   </section>
@@ -163,14 +211,14 @@
   <section id="parceiros">
     <img class="logo_parceiros" img-key="img-parceiros2" src="./src/img/parceiros2.png" alt="Parceiros">
 
-    <div class="parceiros">
-      <img src="./src/img/parceiro_uhg.png" alt="unitedHealthGroup">
-      <img class="barra" src="./src/img/line.png" alt="|">
-      <img src="./src/img/parceiro_amil.png" alt="Amil">
-      <img class="barra" src="./src/img/line.png" alt="|">
-      <img src="./src/img/parceiro_gerandofalcoes.png" alt="Gerando Falcões">
-      <img class="barra" src="./src/img/line.png" alt="|">
-      <img src="./src/img/RIOPREFEITURA Cultura horizontal azul.png" alt="Prefeirura do Rio">
+    <div class="parceiros row p-5">
+      <img class="col-sm col-lg-3" src="./src/img/parceiro_uhg.png" alt="unitedHealthGroup">
+      <img class="col-sm col-lg-2" src="./src/img/parceiro_amil.png" alt="Amil">
+      <img class="col-sm col-lg-3" src="./src/img/parceiro_gerandofalcoes.png" alt="Gerando Falcões">
+      <img class="col-sm col-lg-3" src="./src/img/RIOPREFEITURA Cultura horizontal azul.png" alt="Prefeirura do Rio">
+      <img class="col-sm col-lg-4" src="./src/img/Icatu Vanguarda.png" alt="">
+      <img class="col-sm col-lg-4" src="./src/img/A1_BOCOM BBM_Pantone.png" alt="">
+      <img class="col-sm col-lg-3" src="./src/img/site_Neoenergia.png" alt="">
     </div>
   </section>
   <footer>
@@ -202,12 +250,18 @@
         </p>
       </div>
       <div class="card_footer">
+        <div class="container row">
+          <img src="./src/img/Selo Auditoria - Entre o Céu e a Favela.png" alt="" class="selos_rodape col-lg-6 col-6">
+          <img src="./src/img/Selo Prêmio Inspirar - Entre o Céu e a Favela.png" alt="" class="selos_rodape col-lg-6 col-6">
+        </div>
       </div>
     </div>
   </footer>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/stevenschobert/instafeed.js@2.0.0rc1/src/instafeed.min.js"></script>
   <script type="text/javascript" src="./src/script/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
