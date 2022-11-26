@@ -825,7 +825,7 @@ flex-wrap: wrap;
 
 #transparencia {
   height: 100vh;
-  background-image: url("../img/foto_menina.jpg");
+  background-image: url("../img/bg_transparencia.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   font-family: "Muli-Regular";
@@ -836,6 +836,82 @@ flex-wrap: wrap;
 	background-color: #1c120c;
 	background-attachment:fixed;
 }
+.logo_div_transparencia {
+  display: flex;
+  padding-top: 10vh;
+}
+.logo_transparencia {
+  display: block;
+  height: 12vh;
+  margin-left: auto;
+  margin-right: auto;
+  transform: skewY(-1deg);
+}
+.transparencia {
+  background-color: #dddddd;
+  height:auto;
+  width: 100vw;
+  transform: skewY(1deg);
+  margin-top: -2vh;
+  margin-bottom: -2vh;
+}
+
+#transparencia_cards {
+  width: 100vw;
+  transform: skewY(-1deg);
+  margin-top: 10vh;
+  padding-bottom: 18vh;
+}
+
+.card_transparencia {
+  float: left;
+}
+.card_transparencia a {
+  text-decoration: none;
+}
+.card_transparencia h4 {
+  font-family: "Poppins-Regular";
+  font-weight: 800;
+  font-size: 1em;
+}
+
+.card_transparencia p {
+  font-family: "Muli-Regular";
+  margin-top: 1vh;
+}
+button{
+  cursor: pointer;
+}
+
+.card_transparencia button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  position: static;
+  width: 10vw;
+  height: 5vh;
+  left: 0px;
+  top: 124px;
+
+  background: #eceff5;
+  border-radius: 80px;
+  border-width: 0;
+
+  order: 1;
+  font-weight: 600;
+  font-size: 0.8em;
+  line-height: 24px;
+  color: #3e5f9e;
+}
+
+
+.card_transparencia button img {
+  margin-left: 2vw;
+}
+
+
 @media (max-width: 800px) {
  
   
@@ -963,6 +1039,7 @@ width: 50vw;
   max-width: 80vw;
   margin: auto;
 }
+
 #doar_cards {
   position: relative;
   margin-top: 15vh;
@@ -1517,5 +1594,31 @@ flex-direction: column;
   width: 80vw;
 }
 
+#transparencia {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: -50vw;
+  font-family: "Muli-Regular";
+  display: flex;
+}
+.logo_transparencia {
+  position: relative;
+  height: 7vh;
+  transform: skewY(-1deg);
+  max-width: 80vw;
+  margin: auto;
+}
+
+.card_transparencia p, h4{
+text-align: center;
+ margin: 25px;
+}
+.card_transparencia button {
+width: 50vw;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 25px;
+}
 
 }
