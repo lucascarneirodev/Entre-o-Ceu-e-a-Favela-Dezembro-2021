@@ -52,14 +52,14 @@ nav{
 }
 .nav-idiomas a{
   margin-left:10px;
-  z-index: index 2;
+  z-index: 10;
 }
 .pipanav{
   position: absolute;
-  width: 120px;
-  margin-top:15px;
+  width: 100px;
+  margin-top:0px;
   opacity: 0;
-  z-index: 0;
+  z-index: 3;
 }
 
 .languages{
@@ -69,7 +69,7 @@ nav{
 nav a:hover > .pipanav{
 opacity: 1;
 transition: 0.4s;
-margin-top:-15px;
+margin-top:-10px;
 }
 
 nav a:hover{
