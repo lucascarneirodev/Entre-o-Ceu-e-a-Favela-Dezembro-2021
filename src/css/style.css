@@ -24,6 +24,10 @@
   max-width: 100%;
 }
 
+a{
+  text-decoration: none !important
+}
+
 header {
   position: absolute;
   top: 0;
@@ -130,7 +134,7 @@ nav a{
 }
 
 .quemsomos p {
-  font-family: "Muli-Regular";
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 0;
   font-size: 1.5vw;
@@ -140,11 +144,13 @@ nav a{
 }
 
 .quemsomoscard {
+  font-family: 'Poppins', sans-serif;
   width: 20vw;
   padding: 0;
 }
 
 .quemsomoscard h4 {
+  font-family: 'Poppins', sans-serif;
   text-align: center;
   font-size: 2vw;
   color: white;
@@ -177,7 +183,7 @@ nav a{
 }
 
 .quemsomoscarousel p {
-  font-family: "Muli-Regular";
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 0;
   font-size: 1.5vw;
@@ -191,12 +197,14 @@ nav a{
 }
 
 .quemsomoscardcarousel h4 {
+  font-family: 'Poppins', sans-serif;
   text-align: center;
   font-size: 7vw;
   color: white;
 }
 
 .quemsomoscardcarousel p{
+  font-family: 'Poppins', sans-serif;
   width: 100%;
   font-size: 5vw;
   text-align: center;
@@ -482,12 +490,6 @@ margin-top: 30vh;
   background-color: white;
   width: 100vw;
 }
-
-.logo_parceiros{
-  height: 10vh;
-  margin: 2vh auto 2vh;
-}
-
 .parceiros{
   display: flex;
   margin: auto;
@@ -498,9 +500,17 @@ margin-top: 30vh;
   align-content: center;
 justify-content: space-between;
 }
-
 .parceiros img{
   object-fit: contain;
+}
+.logo_parceiros{
+  height: 10vh;
+  margin: 2vh auto 2vh;
+}
+
+.parceiros-carousel-item img{
+  object-fit: contain;
+  max-width: 15vw;
 }
 
 footer {

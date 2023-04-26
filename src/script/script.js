@@ -28,7 +28,7 @@ var languages = {
         "card-p-atividades": "Com nossas atividades, queremos promover a transformação sócio cultural na região portuária do Rio de Janeiro. Nós oferecemos espaços de desenvolvimento para crianças, jovens e mulheres e geramos qualificação, acesso à cultura e uma orientação profissional completa e efetiva para os moradores da região.",
         "btn-atividades": "Veja todas as atividades<img src='./src/img/Arrow 1.png' alt='' />",
         "atividades-h4-profissional": "Qualificação profissional",
-        "atividades-p-profissional-lista": "Maquiagem<br>Trança<br>Informática<br>Design de sobrancelha<br>",
+        "atividades-p-profissional-lista": "Formação de Jovens<br>Informática<br>Programação<br>Maquiagem<br>Trança<br>",
         "atividades-h4-oficinas": "Oficinas",
         "atividades-p-oficinas-lista": "Escrita Criativa<br>Percussão<br>Reforço Escolar<br>Teatro<br>Futebol<br>Perna de pau<br>",
         "galeria-a-siga": "Siga a gente no Instagram <img src='./src/img/Arrow 2.png'alt='' />",
@@ -243,8 +243,6 @@ var userFeed = new Instafeed({
 });
 userFeed.run();
 
-
-
 const parallax_home = document.getElementById("quemsomos");
 
 window.addEventListener("scroll", function () {
@@ -258,7 +256,6 @@ window.addEventListener("scroll", function () {
     let offset_about = window.pageYOffset;
     parallax_about.style.backgroundPositionY = offset_about * 0.5 + "px";
 })
-
 
 let lang = navigator.language.substr(0, 2) == "en" || navigator.language.substr(0, 2) == "pt" || navigator.language.substr(0, 2) == "fr" ? navigator.language.substr(0, 2) : "pt"
 
@@ -302,11 +299,9 @@ function applyStrings(containers) {
 }
 
 function applyImgsSrc(container) {
-    for (i=0; i < container.length; i++) {
+    for (i = 0; i < container.length; i++) {
         let key = container[i].getAttribute('img-key');
         if (key) {
-            console.log(i);
-            console.log(container[i].src)
             container[i].src = currentLanguages[key];
         }
     }
@@ -315,3 +310,20 @@ function applyImgsSrc(container) {
 function languagesMatch(lang) {
     currentLanguages = languages[lang];
 }
+
+
+$(document).ready(function () {
+    $('#parceiros-carousel-slick').slick({
+        slidesToScroll: 1,
+        centerMode: true,
+        variableWidth: true,
+        dots: true,
+        speed: 500,
+        cssEase: 'linear',
+        useTransform: false,
+        autoplay: true,
+        autoplaySpeed: 6000,
+        arrows: true
+
+    });
+});
