@@ -327,3 +327,20 @@ $(document).ready(function () {
 
     });
 });
+
+document.addEventListener('DOMContentLoaded', (event) => {
+    const modalCampanha = document.getElementById("modalCampanha");
+    const fechar = document.getElementsByClassName("fechar")[0];
+
+    modalCampanha.style.display = "block";
+
+    fechar.onclick = function() {
+        modalCampanha.style.display = "none";
+    }
+
+    window.onclick = function(event) {
+        if (event.target == modalCampanha) {
+            modalCampanha.style.display = "none";
+        }
+    }
+});
