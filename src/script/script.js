@@ -239,7 +239,7 @@ var userFeed = new Instafeed({
     get: 'user',
     target: "instafeed-container",
     resolution: 'low_resolution',
-    accessToken: 'IGQVJWNWYxdDhaeFU3YWR0LWRCVXE1d3NiMFl1WkNZAVE56LVdfeFdfeVBTRVIyQ08yLTlTazd0RXN3VTlzN2FMYW9seWRiYjRkdkxpSW5ZARU5SREhjVy16SHk5YndQa2ZA3cmV1RHBRVTY4VTdQeVk4bwZDZD'
+    accessToken: 'IGQWRQdUJER01wMWFGbDFCUG9CWVhNZAFVRMzJhS2U4SHFPLUY4TTlBcTJxN0o5V1lXWkFnYXhseWxUXzAyT2ZAoOGIyOGJackxtQ08yV0szQ2FWY1ZA1Mnc4QWxUekNkWThPOEJVbmUyZAWprS0hyU2F1Wlg5QmoxM1UZD'
 });
 userFeed.run();
 
