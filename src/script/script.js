@@ -344,3 +344,9 @@ document.addEventListener('DOMContentLoaded', (event) => {
         }
     }
 });
+
+document.getElementById("newsletterForm").addEventListener("submit", function(e) {
+    e.preventDefault(); 
+  
+    alert("Inscrição realizada com sucesso!");
+  });

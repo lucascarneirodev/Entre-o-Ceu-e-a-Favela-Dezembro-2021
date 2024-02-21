@@ -1107,6 +1107,36 @@ button{
   margin-left: 2vw;
 }
 
+.newsletter_signup {
+  text-align: center;
+  padding: 20px;
+  background-color: #f3f4f6;
+}
+
+.newsletter_signup h4 {
+  margin-bottom: 15px;
+}
+
+#newsletterForm {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+#newsletterEmail {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#newsletterForm button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
 
 @media (max-width: 800px) {
  
@@ -1852,13 +1882,13 @@ flex-direction: column;
 text-align: center;
  margin: 25px;
 }
+
 .card_transparencia button {
 width: 50vw;
 margin-left: auto;
 margin-right: auto;
 margin-bottom: 25px;
 }
-
 
 #bazar {
   height: 100vh;
@@ -1868,6 +1898,14 @@ margin-bottom: 25px;
   background-position: -50vw;
   font-family: "Muli-Regular";
   display: flex;
+}
+
+#newsletterForm {
+  flex-direction: column;
+}
+
+#newsletterForm button {
+  width: 100%;
 }
 
 }
