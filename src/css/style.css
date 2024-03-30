@@ -1138,9 +1138,75 @@ button{
   cursor: pointer;
 }
 
+#fa-velas-section {
+  padding-top: 0px;
+  padding-bottom: 0%;
+}
+
+#favelas_head {
+  background-color: white;
+  transform: skewY(-1deg);
+
+  padding-top: 20px;
+  margin-top: 0px;
+  margin-bottom: -20px;
+  height: 30vh
+}
+
+.container-fluid {
+  background-color: #2560a2;
+  padding-top: 60px;
+  color: white;
+}
+
+.container-fluid p{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#favelas_head img {
+  transform: skewY(1deg);
+  width: 35%;
+}
+
+.text-container {
+  display: block;
+  text-align: center;
+  color: #000;
+  text-decoration: none;
+}
+
+.icon-image {
+  margin: 0 auto;
+  display: block;
+  width: 80px;
+  height: 80px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  padding: 0px;
+}
+
+.text-name {
+  font-weight: bold;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.text-role {
+  font-size: smaller;
+  margin: 0;
+}
+
+#pdfCarousel {
+  margin-top: 50px;
+  padding-bottom: 50px ;
+}
+
 @media (max-width: 800px) {
  
-  
+  #favelas_head img {
+    width: 60%;
+  }
 * {
   margin: 0px;
   text-decoration: none;
