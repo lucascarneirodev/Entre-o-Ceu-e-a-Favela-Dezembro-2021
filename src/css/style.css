@@ -1152,6 +1152,7 @@ button {
   background-color: #2560a2;
   padding-top: 60px;
   color: white;
+  min-height: 550px;
 }
 
 .container-fluid p {
